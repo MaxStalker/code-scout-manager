@@ -40,7 +40,7 @@ const processAddress = async (address, add) => {
     console.log(contractName);
     add(contractName, {
       name: contractName,
-      code,
+      // code,
       imports,
     });
   }
@@ -69,47 +69,14 @@ const flow = async () => {
   });
   console.log(contracts);
 
-  /*
-  const account = await prisma.account.create({
-    data:{
-      address,
-    }
-  })
-   */
+  for (let key of Object.keys(contracts)) {
+    const contract = contracts[key]
 
-  /*
-  const contract = await prisma.contract.create({
-    data: {
-      name: "LicensedNFT",
-      tags: {
-        create: [],
-      },
-      code: {
-        create: [
-          {
-            cadence: "// Hello, Cadence",
-          },
-        ],
-      },
-    },
-  });
+    const contract = await prisma.contract
 
-  console.log({ contract });
+  }
 
-   */
 };
 
-const get = async () => {
-  const data = await prisma.contractCode.findMany({
-    select: {
-      contract: {
-        where: {
 
-        }
-      }
-    }
-  })
-  console.log({data})
-}
-
-get();
+flow();

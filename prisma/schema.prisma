@@ -9,21 +9,6 @@ datasource db {
   referentialIntegrity = "prisma"
 }
 
-model ContractLocation {
-  address    String
-  name       String
-  contract   Contract @relation(fields: [contractId], references: [id])
-  contractId Int      @unique
-
-  imports   ContractCode? @relation(name: "Imports", fields: [importsId], references: [id], map: "imports")
-  importsId Int?
-
-  importedBy ContractCode? @relation(name: "ImportedBy", fields: [importedId], references: [id], map: "importedBy")
-  importedId Int?
-
-  @@id([address, name])
-}
-
 model Contract {
   id           Int            @id @default(autoincrement())
   name         String
@@ -35,20 +20,30 @@ model Contract {
   location ContractLocation?
 }
 
+model ContractLocation {
+  address String
+  name    String
+
+  contract   Contract @relation(fields: [contractId], references: [id])
+  contractId Int      @unique
+
+  imports   ContractCode? @relation(name: "Imports", fields: [importsId], references: [id], map: "imports")
+  importsId Int?
+
+  @@id([address, name])
+}
+
 model ContractCode {
-  id Int @id @default(autoincrement())
-
-  imports    ContractLocation[] @relation("Imports")
-  importedBy ContractLocation[] @relation("ImportedBy")
-
-  cadence  String    @db.LongText
+  id       Int                @id @default(autoincrement())
+  cadence  String             @db.LongText
   comments Comment[]
+  imports  ContractLocation[] @relation("Imports")
 
   contractHistory   Contract? @relation(name: "History", fields: [contractHistoryId], references: [id])
   contractHistoryId Int?
 
-  contract   Contract? @relation(fields: [contractId], references: [id])
-  contractId Int?      @unique
+  contract   Contract @relation(fields: [contractId], references: [id])
+  contractId Int      @unique
 }
 
 model Comment {
@@ -58,8 +53,8 @@ model Comment {
   lineEnd   Int
   content   String
 
-  contractCode   ContractCode? @relation(fields: [contractCodeId], references: [id])
-  contractCodeId Int?
+  contractCode   ContractCode @relation(fields: [contractCodeId], references: [id])
+  contractCodeId Int
 }
 
 model Tag {
