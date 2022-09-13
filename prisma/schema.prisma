@@ -1,0 +1,69 @@
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["referentialIntegrity", "fullTextSearch", "fullTextIndex"]
+}
+
+datasource db {
+  provider             = "mysql"
+  url                  = env("DATABASE_URL")
+  referentialIntegrity = "prisma"
+}
+
+model ContractLocation {
+  address    String
+  name       String
+  contract   Contract @relation(fields: [contractId], references: [id])
+  contractId Int      @unique
+
+  imports   ContractCode? @relation(name: "Imports", fields: [importsId], references: [id], map: "imports")
+  importsId Int?
+
+  importedBy ContractCode? @relation(name: "ImportedBy", fields: [importedId], references: [id], map: "importedBy")
+  importedId Int?
+
+  @@id([address, name])
+}
+
+model Contract {
+  id           Int            @id @default(autoincrement())
+  name         String
+  currentCode  ContractCode?
+  history      ContractCode[] @relation("History")
+  tags         Tag[]
+  interactions Int            @default(0)
+
+  location ContractLocation?
+}
+
+model ContractCode {
+  id Int @id @default(autoincrement())
+
+  imports    ContractLocation[] @relation("Imports")
+  importedBy ContractLocation[] @relation("ImportedBy")
+
+  cadence  String    @db.LongText
+  comments Comment[]
+
+  contractHistory   Contract? @relation(name: "History", fields: [contractHistoryId], references: [id])
+  contractHistoryId Int?
+
+  contract   Contract? @relation(fields: [contractId], references: [id])
+  contractId Int?      @unique
+}
+
+model Comment {
+  id Int @id @default(autoincrement())
+
+  lineStart Int
+  lineEnd   Int
+  content   String
+
+  contractCode   ContractCode? @relation(fields: [contractCodeId], references: [id])
+  contractCodeId Int?
+}
+
+model Tag {
+  id        Int        @id @default(autoincrement())
+  name      String
+  contracts Contract[]
+}
