@@ -2,7 +2,7 @@ import { PrismaClient } from "@prisma/client";
 import fetch from "node-fetch";
 import * as fcl from "@onflow/fcl";
 import { extractImports } from "@onflow/flow-cadut";
-import { writeJSON } from "./json.mjs";
+import { readJSON, writeJSON } from "./json.mjs";
 
 const prisma = new PrismaClient();
 fcl.config().put("accessNode.api", "https://rest-mainnet.onflow.org");
@@ -37,10 +37,9 @@ const processAddress = async (address, add) => {
   for (const contractName of contractNames) {
     const code = account.contracts[contractName];
     const imports = filterImports(extractImports(code));
-    console.log(contractName);
     add(contractName, {
       name: contractName,
-      // code,
+      code,
       imports,
     });
   }
@@ -60,23 +59,69 @@ const getList = async () => {
   writeJSON("./contracts.json", data);
 };
 
-const flow = async () => {
-
+const addToDatabase = async (address) => {
   const contracts = {};
-  const address = "0x01ab36aaf654a13e";
   await processAddress(address, (name, data) => {
     contracts[name] = data;
   });
-  console.log(contracts);
 
   for (let key of Object.keys(contracts)) {
-    const contract = contracts[key]
+    const { name, code, imports } = contracts[key];
+    console.log(`Processing ${address} - ${name}`);
 
-    const contract = await prisma.contract
+    const contract = await prisma.contract.create({
+      data: {
+        cadence: code,
+        location: {
+          connectOrCreate: {
+            where: { location: { name, address } },
+            create: { name, address },
+          },
+        },
+      },
+    });
 
+    // Imports should be in the different contract
+    /*
+    const imp = await prisma.import.create({
+      data: {
+        name,
+        address,
+        imports: {
+          connectOrCreate: Object.keys(imports).map((name) => {
+            const address = imports[name];
+            return {
+              where: { location: { name, address } },
+              create: { name, address, contractId: contract.id },
+            };
+          }),
+        },
+      },
+    });
+        console.log({ imp });
+     */
+
+    console.log({ contract });
   }
-
 };
 
+const collectAddresses = async () => {
+  const data = readJSON("./contracts.json");
+  const list = data.reduce((acc, item) => {
+    acc.push(item.address);
+    return acc;
+  }, []);
+  writeJSON("./list.json", list);
+};
+
+// collectAddresses();
+
+const flow = async () => {
+  const list = readJSON("./list.json");
+  for (const index in list) {
+    const address = list[index]
+    await addToDatabase(address)
+  }
+};
 
 flow();

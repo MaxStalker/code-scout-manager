@@ -10,55 +10,52 @@ datasource db {
 }
 
 model Contract {
-  id           Int            @id @default(autoincrement())
-  name         String
-  currentCode  ContractCode?
-  history      ContractCode[] @relation("History")
+  id           Int       @id @default(autoincrement())
+  cadence      String    @db.LongText
+  interactions Int       @default(0)
+  comments     Comment[]
   tags         Tag[]
-  interactions Int            @default(0)
 
-  location ContractLocation?
-}
-
-model ContractLocation {
-  address String
-  name    String
-
-  contract   Contract @relation(fields: [contractId], references: [id])
-  contractId Int      @unique
-
-  imports   ContractCode? @relation(name: "Imports", fields: [importsId], references: [id], map: "imports")
+  location  Location?
   importsId Int?
-
-  @@id([address, name])
 }
 
-model ContractCode {
-  id       Int                @id @default(autoincrement())
-  cadence  String             @db.LongText
-  comments Comment[]
-  imports  ContractLocation[] @relation("Imports")
-
-  contractHistory   Contract? @relation(name: "History", fields: [contractHistoryId], references: [id])
-  contractHistoryId Int?
-
+model Location {
   contract   Contract @relation(fields: [contractId], references: [id])
   contractId Int      @unique
+
+  name    String
+  address String
+
+  // Import related relations
+  import        Import? @relation(fields: [importName, importAddress], references: [name, address])
+  importName    String?
+  importAddress String?
+
+  @@id(name: "location", [name, address])
+}
+
+model Import {
+  name    String
+  address String
+  imports Location[]
+
+  @@id(name: "core", [name, address])
 }
 
 model Comment {
   id Int @id @default(autoincrement())
 
-  lineStart Int
-  lineEnd   Int
-  content   String
-
-  contractCode   ContractCode @relation(fields: [contractCodeId], references: [id])
-  contractCodeId Int
+  lineStart  Int
+  lineEnd    Int
+  content    String
+  Contract   Contract? @relation(fields: [contractId], references: [id])
+  contractId Int?
 }
 
 model Tag {
-  id        Int        @id @default(autoincrement())
-  name      String
-  contracts Contract[]
+  id         Int       @id @default(autoincrement())
+  name       String
+  Contract   Contract? @relation(fields: [contractId], references: [id])
+  contractId Int?
 }
