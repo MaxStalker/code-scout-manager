@@ -31,18 +31,36 @@ const filterImports = (imp) => {
 };
 
 const processAddress = async (address, add) => {
-  const contracts = {};
-  const { account } = await fcl.send([fcl.getAccount(address)]);
-  const contractNames = Object.keys(account.contracts);
+  // const data = await fcl.send([fcl.getAccount(address)]).then(fcl.decode);
+
+  const data = await fcl.query({
+    cadence: `
+      pub fun main():Int{
+        return 42
+      }
+    `,
+  });
+
+  console.log({ data });
+
+  const contracts = [{ Basic: "// Hello, World" }];
+  const account = {
+    contracts,
+  };
+
+  /*  const contractNames = Object.keys(account.contracts);
   for (const contractName of contractNames) {
     const code = account.contracts[contractName];
-    const imports = filterImports(extractImports(code));
+    // const imports = filterImports(extractImports(code));
+    const imports = {
+      "Test": "0x1"
+    };
     console.log({ imports });
     contracts[contractName] = {
       code,
       imports,
     };
-  }
+  }*/
   return contracts;
 };
 
@@ -65,7 +83,7 @@ const addToDatabase = async (address) => {
     contracts[name] = data;
   });
 
-  console.log(contracts);
+  // console.log(contracts);
   console.log("done processing contracts");
   console.log("out of loop");
 };
@@ -83,6 +101,8 @@ const collectAddresses = async () => {
 
 const flow = async () => {
   await addToDatabase("0x01ab36aaf654a13e");
+
+  console.log("-------------------------------------->");
 
   const locations = await prisma.location.findMany();
   console.log({ locations });
