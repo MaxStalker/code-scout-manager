@@ -31,18 +31,19 @@ const filterImports = (imp) => {
 };
 
 const processAddress = async (address, add) => {
-  console.log(`Processing: ${address}`);
+  const contracts = {};
   const { account } = await fcl.send([fcl.getAccount(address)]);
   const contractNames = Object.keys(account.contracts);
   for (const contractName of contractNames) {
     const code = account.contracts[contractName];
     const imports = filterImports(extractImports(code));
-    add(contractName, {
-      name: contractName,
+    console.log({ imports });
+    contracts[contractName] = {
       code,
       imports,
-    });
+    };
   }
+  return contracts;
 };
 
 const getList = async () => {
@@ -60,49 +61,13 @@ const getList = async () => {
 };
 
 const addToDatabase = async (address) => {
-  const contracts = {};
-  await processAddress(address, (name, data) => {
+  const contracts = await processAddress(address, (name, data) => {
     contracts[name] = data;
   });
 
-  for (let key of Object.keys(contracts)) {
-    const { name, code, imports } = contracts[key];
-    console.log(`Processing ${address} - ${name}`);
-
-    const contract = await prisma.contract.create({
-      data: {
-        cadence: code,
-        location: {
-          connectOrCreate: {
-            where: { location: { name, address } },
-            create: { name, address },
-          },
-        },
-      },
-    });
-
-    // Imports should be in the different contract
-    /*
-    const imp = await prisma.import.create({
-      data: {
-        name,
-        address,
-        imports: {
-          connectOrCreate: Object.keys(imports).map((name) => {
-            const address = imports[name];
-            return {
-              where: { location: { name, address } },
-              create: { name, address, contractId: contract.id },
-            };
-          }),
-        },
-      },
-    });
-        console.log({ imp });
-     */
-
-    console.log({ contract });
-  }
+  console.log(contracts);
+  console.log("done processing contracts");
+  console.log("out of loop");
 };
 
 const collectAddresses = async () => {
@@ -117,11 +82,24 @@ const collectAddresses = async () => {
 // collectAddresses();
 
 const flow = async () => {
-  const list = readJSON("./list.json");
+  await addToDatabase("0x01ab36aaf654a13e");
+
+  const locations = await prisma.location.findMany();
+  console.log({ locations });
+
+  /*  const list = readJSON("./list.json");
   for (const index in list) {
     const address = list[index]
     await addToDatabase(address)
-  }
+  }*/
 };
 
-flow();
+flow().then(() => {
+  console.log("done");
+});
+
+/*
+(async ()=>{
+  const contracts = await prisma.contract.findMany({})
+  console.log({contracts})
+})()*/
