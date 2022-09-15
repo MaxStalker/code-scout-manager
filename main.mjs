@@ -4,8 +4,13 @@ import * as fcl from "@onflow/fcl";
 import { extractImports } from "@onflow/flow-cadut";
 import { readJSON, writeJSON } from "./json.mjs";
 
+
 const prisma = new PrismaClient();
-fcl.config().put("accessNode.api", "https://rest-mainnet.onflow.org");
+
+const setup = async()=>{
+  fcl.config().put("accessNode.api", "https://rest-mainnet.onflow.org");
+  await prisma.$connect()
+}
 
 const main = async () => {
   const contracts = await prisma.contract.findMany({});
@@ -114,12 +119,10 @@ const flow = async () => {
   }*/
 };
 
-flow().then(() => {
-  console.log("done");
-});
 
-/*
 (async ()=>{
-  const contracts = await prisma.contract.findMany({})
-  console.log({contracts})
-})()*/
+  await setup();
+  flow().then(() => {
+    console.log("done");
+  });
+})()

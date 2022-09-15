@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "studio": "prisma studio"
+    "studio": "prisma studio",
+    "dev": "node main.mjs"
   },
   "author": "",
   "license": "ISC",
