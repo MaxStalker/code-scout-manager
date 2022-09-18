@@ -1,22 +1,22 @@
 {
   "0x011b6f1425389550": {
-    "NWayUtilityCoin.": {
+    "NWayUtilityCoin": {
       "FungibleToken": "0xf233dcee88fe0abe"
     }
   },
   "0x01ab36aaf654a13e": {
-    "LicensedNFT.": {},
-    "RaribleFee.": {},
-    "RaribleNFT.": {
+    "LicensedNFT": {},
+    "RaribleFee": {},
+    "RaribleNFT": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448",
       "LicensedNFT": "0x01ab36aaf654a13e"
     },
-    "RaribleOpenBid.": {
+    "RaribleOpenBid": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "RaribleOrder.": {
+    "RaribleOrder": {
       "RaribleFee": "0x336405ad2f289b87",
       "FungibleToken": "0xf233dcee88fe0abe",
       "NFTStorefront": "0x4eb8a10cb9f87357",
@@ -24,54 +24,54 @@
     }
   },
   "0x01ddf82c652e36ef": {
-    "GaiaPrimarySale.": {
+    "GaiaPrimarySale": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe"
     }
   },
   "0x03c8261a06cb1b42": {
-    "SportsIconNFTStorefront.": {
+    "SportsIconNFTStorefront": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448"
     }
   },
   "0x03f431c443183c8b": {
-    "StarvingChildren.": {
+    "StarvingChildren": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "StarvingChildrenMarket.": {
+    "StarvingChildrenMarket": {
       "StarvingChildren": "0x3f431c443183c8b",
       "FungibleToken": "0xf233dcee88fe0abe",
       "FUSD": "0x3c5959b568896393"
     }
   },
   "0x050b286b60012753": {
-    "REVV.": {
+    "REVV": {
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "REVVVaultAccess.": {
+    "REVVVaultAccess": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "REVV": "0x50b286b60012753"
     }
   },
   "0x066a74dfb4da0306": {
-    "PierSwapSettings.": {
+    "PierSwapSettings": {
       "MultiFungibleToken": "0xa378eeb799df8387",
       "PierLPToken": "0x609e10301860b683"
     }
   },
   "0x08dd120226ec2213": {
-    "DelayedTransfer.": {
+    "DelayedTransfer": {
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "FTMinterBurner.": {
+    "FTMinterBurner": {
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "Pb.": {},
-    "PbPegged.": {
+    "Pb": {},
+    "PbPegged": {
       "Pb": "0x08dd120226ec2213"
     },
-    "PegBridge.": {
+    "PegBridge": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "cBridge": "0x08dd120226ec2213",
       "PbPegged": "0x08dd120226ec2213",
@@ -79,20 +79,20 @@
       "VolumeControl": "0x08dd120226ec2213",
       "FTMinterBurner": "0x08dd120226ec2213"
     },
-    "SafeBox.": {
+    "SafeBox": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "cBridge": "0x08dd120226ec2213",
       "PbPegged": "0x08dd120226ec2213",
       "DelayedTransfer": "0x08dd120226ec2213",
       "VolumeControl": "0x08dd120226ec2213"
     },
-    "VolumeControl.": {},
-    "cBridge.": {
+    "VolumeControl": {},
+    "cBridge": {
       "Pb": "0x08dd120226ec2213"
     }
   },
   "0x097bafa4e0b48eef": {
-    "Admin.": {
+    "Admin": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448",
@@ -104,22 +104,22 @@
       "FindMarket": "0x097bafa4e0b48eef",
       "FindForge": "0x097bafa4e0b48eef"
     },
-    "CharityNFT.": {
+    "CharityNFT": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448"
     },
-    "Clock.": {
+    "Clock": {
       "YourThing": "\"../contracts/YouThing.cdc\""
     },
-    "Dandy.": {
+    "Dandy": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe",
       "MetadataViews": "0x1d7e57aa55817448",
       "FindViews": "0x097bafa4e0b48eef",
       "FindForge": "0x097bafa4e0b48eef"
     },
-    "Debug.": {},
-    "FIND.": {
+    "Debug": {},
+    "FIND": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "FUSD": "0x3c5959b568896393",
       "Profile": "0x097bafa4e0b48eef",
@@ -128,23 +128,23 @@
       "Sender": "0x097bafa4e0b48eef",
       "ProfileCache": "0x097bafa4e0b48eef"
     },
-    "FINDNFTCatalog.": {
+    "FINDNFTCatalog": {
       "NFTCatalog": "0x49a7cda3a1eecc29",
       "MetadataViews": "0x1d7e57aa55817448"
     },
-    "FINDNFTCatalogAdmin.": {
+    "FINDNFTCatalogAdmin": {
       "FINDNFTCatalog": "0x097bafa4e0b48eef",
       "NFTCatalog": "0x49a7cda3a1eecc29"
     },
-    "FTRegistry.": {},
-    "FindForge.": {
+    "FTRegistry": {},
+    "FindForge": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448",
       "FIND": "0x097bafa4e0b48eef",
       "Profile": "0x097bafa4e0b48eef"
     },
-    "FindLeaseMarket.": {
+    "FindLeaseMarket": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "FindViews": "0x097bafa4e0b48eef",
       "FIND": "0x097bafa4e0b48eef",
@@ -155,7 +155,7 @@
       "FindMarket": "0x097bafa4e0b48eef",
       "FindRulesCache": "0x097bafa4e0b48eef"
     },
-    "FindLeaseMarketAuctionSoft.": {
+    "FindLeaseMarketAuctionSoft": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448",
@@ -165,7 +165,7 @@
       "FindMarket": "0x097bafa4e0b48eef",
       "FindLeaseMarket": "0x097bafa4e0b48eef"
     },
-    "FindLeaseMarketDirectOfferSoft.": {
+    "FindLeaseMarketDirectOfferSoft": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "FlowToken": "0x1654653399040a61",
       "NonFungibleToken": "0x1d7e57aa55817448",
@@ -177,7 +177,7 @@
       "FindMarket": "0x097bafa4e0b48eef",
       "FindLeaseMarket": "0x097bafa4e0b48eef"
     },
-    "FindLeaseMarketSale.": {
+    "FindLeaseMarketSale": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "FindViews": "0x097bafa4e0b48eef",
       "Clock": "0x097bafa4e0b48eef",
@@ -185,7 +185,7 @@
       "FindLeaseMarket": "0x097bafa4e0b48eef",
       "FindMarket": "0x097bafa4e0b48eef"
     },
-    "FindLostAndFoundWrapper.": {
+    "FindLostAndFoundWrapper": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "FlowToken": "0x1654653399040a61",
       "NonFungibleToken": "0x1d7e57aa55817448",
@@ -196,7 +196,7 @@
       "FIND": "0x097bafa4e0b48eef",
       "FindViews": "0x097bafa4e0b48eef"
     },
-    "FindMarket.": {
+    "FindMarket": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "MetadataViews": "0x1d7e57aa55817448",
       "Profile": "0x097bafa4e0b48eef",
@@ -204,7 +204,7 @@
       "FTRegistry": "0x097bafa4e0b48eef",
       "FindRulesCache": "0x097bafa4e0b48eef"
     },
-    "FindMarketAuctionEscrow.": {
+    "FindMarketAuctionEscrow": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448",
@@ -214,7 +214,7 @@
       "FindMarket": "0x097bafa4e0b48eef",
       "Profile": "0x097bafa4e0b48eef"
     },
-    "FindMarketAuctionSoft.": {
+    "FindMarketAuctionSoft": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448",
@@ -224,7 +224,7 @@
       "FindMarket": "0x097bafa4e0b48eef",
       "Profile": "0x097bafa4e0b48eef"
     },
-    "FindMarketDirectOfferEscrow.": {
+    "FindMarketDirectOfferEscrow": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448",
@@ -235,7 +235,7 @@
       "FindMarket": "0x097bafa4e0b48eef",
       "Profile": "0x097bafa4e0b48eef"
     },
-    "FindMarketDirectOfferSoft.": {
+    "FindMarketDirectOfferSoft": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "FlowToken": "0x1654653399040a61",
       "NonFungibleToken": "0x1d7e57aa55817448",
@@ -247,7 +247,7 @@
       "FindMarket": "0x097bafa4e0b48eef",
       "Profile": "0x097bafa4e0b48eef"
     },
-    "FindMarketSale.": {
+    "FindMarketSale": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448",
@@ -257,40 +257,40 @@
       "Profile": "0x097bafa4e0b48eef",
       "FindMarket": "0x097bafa4e0b48eef"
     },
-    "FindRulesCache.": {
+    "FindRulesCache": {
       "MetadataViews": "0x1d7e57aa55817448"
     },
-    "FindViews.": {
+    "FindViews": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe",
       "MetadataViews": "0x1d7e57aa55817448"
     },
-    "Profile.": {
+    "Profile": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "ProfileCache": "0x097bafa4e0b48eef"
     },
-    "ProfileCache.": {
+    "ProfileCache": {
       "Clock": "0x097bafa4e0b48eef"
     },
-    "RelatedAccounts.": {},
-    "Sender.": {}
+    "RelatedAccounts": {},
+    "Sender": {}
   },
   "0x0b2a3299cc857e29": {
-    "TopShot.": {
+    "TopShot": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448",
       "TopShotLocking": "0x0b2a3299cc857e29"
     },
-    "TopShotLocking.": {
+    "TopShotLocking": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     }
   },
   "0x0bef462a908719a8": {
-    "FrontRow.": {
+    "FrontRow": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "FrontRowStorefront.": {
+    "FrontRowStorefront": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "FUSD": "0x3c5959b568896393",
       "NonFungibleToken": "0x1d7e57aa55817448",
@@ -298,80 +298,80 @@
     }
   },
   "0x0d9bc5af3fc0c2e3": {
-    "TuneGO.": {
+    "TuneGO": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448",
       "TicalUniverse": "0xfef48806337aabf1"
     }
   },
   "0x0f9df91c9121c460": {
-    "BloctoPass.": {
+    "BloctoPass": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "BloctoToken": "0x0f9df91c9121c460",
       "BloctoTokenStaking": "0x0f9df91c9121c460",
       "BloctoPassStamp": "0x0f9df91c9121c460"
     },
-    "BloctoPassStamp.": {
+    "BloctoPassStamp": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "BloctoToken.": {
+    "BloctoToken": {
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "BloctoTokenSale.": {
+    "BloctoTokenSale": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "BloctoToken": "0x0f9df91c9121c460",
       "BloctoPass": "0x0f9df91c9121c460",
       "TeleportedTetherToken": "0xcfdd90d4a00f7b5b"
     },
-    "BloctoTokenStaking.": {
+    "BloctoTokenStaking": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "BloctoToken": "0x0f9df91c9121c460"
     }
   },
   "0x10dda1b950d84c1a": {
-    "MetapierLaunchpad.": {
+    "MetapierLaunchpad": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "MetapierLaunchpadPass": "0x10dda1b950d84c1a",
       "MetapierLaunchpadOwnerPass": "0x10dda1b950d84c1a"
     },
-    "MetapierLaunchpadOwnerPass.": {
+    "MetapierLaunchpadOwnerPass": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "MetapierLaunchpadPass.": {
+    "MetapierLaunchpadPass": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe"
     }
   },
   "0x12450e4bb3b7666e": {
-    "Genies.": {
+    "Genies": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "GeniesAirdrop.": {
+    "GeniesAirdrop": {
       "Genies": "0x12450e4bb3b7666e",
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "GeniesShardedCollection.": {
+    "GeniesShardedCollection": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "Genies": "0x12450e4bb3b7666e"
     }
   },
   "0x142fa6570b62fd97": {
-    "StarlyToken.": {
+    "StarlyToken": {
       "FungibleToken": "0xf233dcee88fe0abe"
     }
   },
   "0x14af75b8c487333c": {
-    "LeofyCoin.": {
+    "LeofyCoin": {
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "LeofyMarketPlace.": {
+    "LeofyMarketPlace": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "LeofyNFT": "0x14af75b8c487333c",
       "LeofyCoin": "0x14af75b8c487333c"
     },
-    "LeofyNFT.": {
+    "LeofyNFT": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe",
@@ -379,7 +379,7 @@
     }
   },
   "0x1600b04bf033fb99": {
-    "DayNFT.": {
+    "DayNFT": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448",
       "DateUtils": "0xc0bcca6fd0fe81b0",
@@ -388,85 +388,85 @@
     }
   },
   "0x18abbff39923b4df": {
-    "FungibleBeatoken.": {
+    "FungibleBeatoken": {
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "MarketplaceBeatoken.": {
+    "MarketplaceBeatoken": {
       "FungibleBeatoken": "0x18abbff39923b4df",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "NonFungibleBeatoken": "0x18abbff39923b4df"
     },
-    "NonFungibleBeatoken.": {
+    "NonFungibleBeatoken": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     }
   },
   "0x1d007eed492fdbbe": {
-    "OlympicPin.": {
+    "OlympicPin": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     }
   },
   "0x1d7e57aa55817448": {
-    "MetadataViews.": {
+    "MetadataViews": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "NonFungibleToken.": {}
+    "NonFungibleToken": {}
   },
   "0x1e075b24abe6eca6": {
-    "NFTContract.": {
+    "NFTContract": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     }
   },
   "0x20187093790b9aef": {
-    "Gamisodes.": {
+    "Gamisodes": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FungibleToken": "\"0xFungibleToken\"",
       "MetadataViews": "0x1d7e57aa55817448"
     },
-    "LOSTiNTurismo.": {
+    "LOSTiNTurismo": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448",
       "FungibleToken": "\"0xFungibleToken\""
     },
-    "MintStoreItem.": {
+    "MintStoreItem": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe",
       "MetadataViews": "0x1d7e57aa55817448"
     },
-    "OpenLockerInc.": {
+    "OpenLockerInc": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FungibleToken": "\"0xFungibleToken\"",
       "MetadataViews": "0x1d7e57aa55817448"
     },
-    "OpenLockerIncBoneYardHuskyzClub.": {
+    "OpenLockerIncBoneYardHuskyzClub": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448",
       "FungibleToken": "\"0xFungibleToken\""
     },
-    "Pickem.": {
+    "Pickem": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448",
       "FungibleToken": "\"0xFungibleToken\""
     },
-    "YBees.": {
+    "YBees": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448",
       "FungibleToken": "\"0xFungibleToken\""
     },
-    "YoungBoysBern.": {
+    "YoungBoysBern": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FungibleToken": "\"0xFungibleToken\"",
       "MetadataViews": "0x1d7e57aa55817448"
     }
   },
   "0x2068315349bdfce5": {
-    "GoatedGoats.": {
+    "GoatedGoats": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe",
       "GoatedGoatsTrait": "0x2068315349bdfce5",
       "MetadataViews": "0x1d7e57aa55817448"
     },
-    "GoatedGoatsManager.": {
+    "GoatedGoatsManager": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe",
       "FlowToken": "0x1654653399040a61",
@@ -476,31 +476,31 @@
       "GoatedGoatsTraitPack": "0x2068315349bdfce5",
       "GoatedGoats": "0x2068315349bdfce5"
     },
-    "GoatedGoatsTrait.": {
+    "GoatedGoatsTrait": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe",
       "MetadataViews": "0x1d7e57aa55817448"
     },
-    "GoatedGoatsTraitPack.": {
+    "GoatedGoatsTraitPack": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe",
       "MetadataViews": "0x1d7e57aa55817448"
     }
   },
   "0x220c1b4155f86f2f": {
-    "OnChainMultiSig.": {
+    "OnChainMultiSig": {
       "FungibleToken": "0xf233dcee88fe0abe"
     }
   },
   "0x233eb012d34b0070": {
-    "Domains.": {
+    "Domains": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe",
       "MetadataViews": "0x1d7e57aa55817448",
       "FNSConfig": "0x233eb012d34b0070"
     },
-    "FNSConfig.": {},
-    "Flowns.": {
+    "FNSConfig": {},
+    "Flowns": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "Domains": "0x233eb012d34b0070",
@@ -508,7 +508,7 @@
     }
   },
   "0x23dddd854fcc8c6f": {
-    "KOTD.": {
+    "KOTD": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe",
@@ -516,26 +516,26 @@
     }
   },
   "0x24de869c5e40b2eb": {
-    "ARTIFACT.": {
+    "ARTIFACT": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448",
       "ARTIFACTViews": "0x24de869c5e40b2eb"
     },
-    "ARTIFACTAdmin.": {
+    "ARTIFACTAdmin": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448",
       "ARTIFACTPack": "0x24de869c5e40b2eb",
       "ARTIFACT": "0x24de869c5e40b2eb",
       "Interfaces": "0x24de869c5e40b2eb"
     },
-    "ARTIFACTAdminV2.": {
+    "ARTIFACTAdminV2": {
       "ARTIFACTPackV3": "0x24de869c5e40b2eb",
       "ARTIFACTV2": "0x24de869c5e40b2eb",
       "Interfaces": "0x24de869c5e40b2eb",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448"
     },
-    "ARTIFACTMarket.": {
+    "ARTIFACTMarket": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FUSD": "0x3c5959b568896393",
@@ -544,7 +544,7 @@
       "ARTIFACTAdmin": "0x24de869c5e40b2eb",
       "Interfaces": "0x24de869c5e40b2eb"
     },
-    "ARTIFACTMarketV2.": {
+    "ARTIFACTMarketV2": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "ARTIFACTV2": "0x24de869c5e40b2eb",
@@ -553,74 +553,74 @@
       "Interfaces": "0x24de869c5e40b2eb",
       "MetadataViews": "0x1d7e57aa55817448"
     },
-    "ARTIFACTPack.": {
+    "ARTIFACTPack": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448",
       "ARTIFACT": "0x24de869c5e40b2eb",
       "ARTIFACTViews": "0x24de869c5e40b2eb",
       "Interfaces": "0x24de869c5e40b2eb"
     },
-    "ARTIFACTPackV2.": {
+    "ARTIFACTPackV2": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448",
       "ARTIFACTV2": "0x24de869c5e40b2eb",
       "ARTIFACTViews": "0x24de869c5e40b2eb",
       "Interfaces": "0x24de869c5e40b2eb"
     },
-    "ARTIFACTPackV3.": {
+    "ARTIFACTPackV3": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "Interfaces": "0x24de869c5e40b2eb",
       "MetadataViews": "0x1d7e57aa55817448",
       "ARTIFACTViews": "0x24de869c5e40b2eb",
       "ARTIFACTV2": "0x24de869c5e40b2eb"
     },
-    "ARTIFACTV2.": {
+    "ARTIFACTV2": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448",
       "ARTIFACTViews": "0x24de869c5e40b2eb",
       "Interfaces": "0x24de869c5e40b2eb"
     },
-    "ARTIFACTViews.": {
+    "ARTIFACTViews": {
       "MetadataViews": "0x1d7e57aa55817448"
     },
-    "Interfaces.": {
+    "Interfaces": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448"
     }
   },
   "0x24efe89a9efa3c6f": {
-    "IconsToken.": {
+    "IconsToken": {
       "FungibleToken": "0xf233dcee88fe0abe"
     }
   },
   "0x256599e1b091be12": {
-    "Metaverse.": {
+    "Metaverse": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "OzoneToken.": {
+    "OzoneToken": {
       "FungibleToken": "0xf233dcee88fe0abe"
     }
   },
   "0x26f07529cfd446c3": {
-    "PonsCertificationContract.": {},
-    "PonsNftContract.": {
+    "PonsCertificationContract": {},
+    "PonsNftContract": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "PonsNftContractInterface": "0x26f07529cfd446c3",
       "PonsUtils": "0x26f07529cfd446c3"
     },
-    "PonsNftContractInterface.": {
+    "PonsNftContractInterface": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "PonsCertificationContract": "0x26f07529cfd446c3"
     },
-    "PonsNftContract_v1.": {
+    "PonsNftContract_v1": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "PonsCertificationContract": "0x26f07529cfd446c3",
       "PonsNftContractInterface": "0x26f07529cfd446c3",
       "PonsNftContract": "0x26f07529cfd446c3",
       "PonsUtils": "0x26f07529cfd446c3"
     },
-    "PonsNftMarketContract.": {
+    "PonsNftMarketContract": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FlowToken": "0x1654653399040a61",
@@ -628,7 +628,7 @@
       "PonsNftContract": "0x26f07529cfd446c3",
       "PonsUtils": "0x26f07529cfd446c3"
     },
-    "PonsNftMarketContract_v1.": {
+    "PonsNftMarketContract_v1": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "FlowToken": "0x1654653399040a61",
       "NonFungibleToken": "0x1d7e57aa55817448",
@@ -638,35 +638,35 @@
       "PonsNftMarketContract": "0x26f07529cfd446c3",
       "PonsUtils": "0x26f07529cfd446c3"
     },
-    "PonsUtils.": {
+    "PonsUtils": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "FlowToken": "0x1654653399040a61",
       "NonFungibleToken": "0x1d7e57aa55817448"
     }
   },
   "0x276a7cc9316712af": {
-    "IrNFT.": {
+    "IrNFT": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe",
       "FUSD": "0x3c5959b568896393",
       "IrVoucher": "0x276a7cc9316712af"
     },
-    "IrVoucher.": {
+    "IrVoucher": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     }
   },
   "0x279480af92d30d55": {
-    "Gampel.": {
+    "Gampel": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448"
     }
   },
   "0x2894f3fd409d3e36": {
-    "NftEggsNFT.": {
+    "NftEggsNFT": {
       "NonFungibleToken": "0xf8d6e0586b0a20c7",
       "FungibleToken": "0xee82856bf20e2aa6"
     },
-    "NftEggsStore.": {
+    "NftEggsStore": {
       "NonFungibleToken": "0xf8d6e0586b0a20c7",
       "FungibleToken": "0xee82856bf20e2aa6",
       "FlowToken": "0x0ae53cb6e3f42a79",
@@ -674,14 +674,14 @@
     }
   },
   "0x28abb9f291cadaf2": {
-    "BarterYardClubWerewolf.": {
+    "BarterYardClubWerewolf": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448",
       "BarterYardStats": "0x28abb9f291cadaf2",
       "FungibleToken": "0xf233dcee88fe0abe",
       "FlowToken": "0x1654653399040a61"
     },
-    "BarterYardClubWerewolfSale.": {
+    "BarterYardClubWerewolfSale": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe",
@@ -689,10 +689,10 @@
       "BarterYardPackNFT": "0xa95b021cf8a30d80",
       "BarterYardClubWerewolf": "0x28abb9f291cadaf2"
     },
-    "BarterYardStats.": {}
+    "BarterYardStats": {}
   },
   "0x29fcd0b5e444242a": {
-    "StakedStarlyCard.": {
+    "StakedStarlyCard": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448",
@@ -702,14 +702,14 @@
       "StarlyMetadata": "0x5b82f21c0edf76e3",
       "StarlyToken": "0x142fa6570b62fd97"
     },
-    "StarlyCardStaking.": {
+    "StarlyCardStaking": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448",
       "StarlyIDParser": "0x5b82f21c0edf76e3",
       "StarlyMetadata": "0x5b82f21c0edf76e3",
       "StarlyMetadataViews": "0x5b82f21c0edf76e3"
     },
-    "StarlyCardStakingClaims.": {
+    "StarlyCardStakingClaims": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448",
@@ -723,12 +723,12 @@
     }
   },
   "0x2d2750f240198f91": {
-    "MatrixWorldFlowFestNFT.": {
+    "MatrixWorldFlowFestNFT": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     }
   },
   "0x2d4c3caffbeab845": {
-    "FLOAT.": {
+    "FLOAT": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448",
       "GrantedAccountAccess": "0x2d4c3caffbeab845",
@@ -736,58 +736,58 @@
       "FlowToken": "0x1654653399040a61",
       "FindViews": "0x097bafa4e0b48eef"
     },
-    "FLOATIncinerator.": {
+    "FLOATIncinerator": {
       "FLOAT": "0x2d4c3caffbeab845"
     },
-    "FLOATVerifiers.": {
+    "FLOATVerifiers": {
       "FLOAT": "0x2d4c3caffbeab845",
       "FungibleToken": "0xf233dcee88fe0abe",
       "FlowToken": "0x1654653399040a61"
     },
-    "GrantedAccountAccess.": {}
+    "GrantedAccountAccess": {}
   },
   "0x2df970b6cdee5735": {
-    "LendingConfig.": {},
-    "LendingError.": {},
-    "LendingInterfaces.": {}
+    "LendingConfig": {},
+    "LendingError": {},
+    "LendingInterfaces": {}
   },
   "0x2e1ee1e7a96826ce": {
-    "FantastecNFT.": {
+    "FantastecNFT": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "FantastecSwapData.": {
+    "FantastecSwapData": {
       "NonFungibleToken": "\"../../standards/contracts/NonFungibleToken.cdc\""
     }
   },
   "0x2ed1bce7bfd6e53d": {
-    "Boomer.": {
+    "Boomer": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "BoomerMarket.": {
+    "BoomerMarket": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "Boomer": "0x2ed1bce7bfd6e53d"
     }
   },
   "0x328670be4971a064": {
-    "Dropchase.": {
+    "Dropchase": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "DropchaseCoin.": {
+    "DropchaseCoin": {
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "DropchaseCreatorRegistry.": {
+    "DropchaseCreatorRegistry": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "DropchaseCoin": "0x328670be4971a064"
     },
-    "DropchaseMarket.": {
+    "DropchaseMarket": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "Dropchase": "0x328670be4971a064",
       "DropchaseCoin": "0x328670be4971a064",
       "DropchaseCreatorRegistry": "0x328670be4971a064"
     },
-    "DropchasePacks.": {
+    "DropchasePacks": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "DropchaseCoin": "0x328670be4971a064",
@@ -795,149 +795,149 @@
     }
   },
   "0x329feb3ab062d289": {
-    "AmericanAirlines_NFT.": {
+    "AmericanAirlines_NFT": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448"
     },
-    "Andbox_NFT.": {
+    "Andbox_NFT": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448"
     },
-    "Art_NFT.": {
+    "Art_NFT": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448"
     },
-    "Atheletes_Unlimited_NFT.": {
+    "Atheletes_Unlimited_NFT": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448"
     },
-    "AtlantaNft_NFT.": {
+    "AtlantaNft_NFT": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448"
     },
-    "BlockleteGames_NFT.": {
+    "BlockleteGames_NFT": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448"
     },
-    "BreakingT_NFT.": {
+    "BreakingT_NFT": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448"
     },
-    "CNN_NFT.": {
+    "CNN_NFT": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448"
     },
-    "Canes_Vault_NFT.": {
+    "Canes_Vault_NFT": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448"
     },
-    "Costacos_NFT.": {
+    "Costacos_NFT": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448"
     },
-    "DGD_NFT.": {
+    "DGD_NFT": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448"
     },
-    "GL_BridgeTest_NFT.": {
+    "GL_BridgeTest_NFT": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448"
     },
-    "GiglabsShopifyDemo_NFT.": {
+    "GiglabsShopifyDemo_NFT": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448"
     },
-    "NFL_NFT.": {
+    "NFL_NFT": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448"
     },
-    "RaceDay_NFT.": {
+    "RaceDay_NFT": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448"
     },
-    "RareRooms_NFT.": {
+    "RareRooms_NFT": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448"
     },
-    "The_Next_Cartel_NFT.": {
+    "The_Next_Cartel_NFT": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448"
     },
-    "UFC_NFT.": {
+    "UFC_NFT": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448"
     }
   },
   "0x336405ad2f289b87": {
-    "RaribleFee.": {}
+    "RaribleFee": {}
   },
   "0x34f2bf4a80bb0f69": {
-    "GooberXContract.": {
+    "GooberXContract": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FUSD": "0x3c5959b568896393"
     },
-    "PartyMansionDrinksContract.": {
+    "PartyMansionDrinksContract": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FlowToken": "0x1654653399040a61",
       "MetadataViews": "0x1d7e57aa55817448",
       "PartyMansionGiveawayContract": "0x34f2bf4a80bb0f69"
     },
-    "PartyMansionGiveawayContract.": {}
+    "PartyMansionGiveawayContract": {}
   },
   "0x3558f4548a40dc77": {
-    "ArtistRegistery.": {
+    "ArtistRegistery": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "FUSD": "0x3c5959b568896393"
     },
-    "BaguetteAuction.": {
+    "BaguetteAuction": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "FUSD": "0x3c5959b568896393",
       "Record": "0x3558f4548a40dc77",
       "ArtistRegistery": "0x3558f4548a40dc77"
     },
-    "BaguetteOffer.": {
+    "BaguetteOffer": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "FUSD": "0x3c5959b568896393",
       "Record": "0x3558f4548a40dc77",
       "ArtistRegistery": "0x3558f4548a40dc77",
       "BaguetteAuction": "0x3558f4548a40dc77"
     },
-    "BaguetteSale.": {
+    "BaguetteSale": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FUSD": "0x3c5959b568896393",
       "Record": "0x3558f4548a40dc77",
       "ArtistRegistery": "0x3558f4548a40dc77"
     },
-    "NameTag.": {},
-    "Record.": {
+    "NameTag": {},
+    "Record": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "ArtistRegistery": "0x3558f4548a40dc77"
     }
   },
   "0x3885d9d426d2ef5c": {
-    "EndModel.": {},
-    "HaikuNFT.": {
+    "EndModel": {},
+    "HaikuNFT": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FlowToken": "0x1654653399040a61",
       "FUSD": "0x3c5959b568896393",
@@ -947,12 +947,12 @@
       "SpaceModel": "0x3885d9d426d2ef5c",
       "EndModel": "0x3885d9d426d2ef5c"
     },
-    "Model.": {},
-    "SpaceModel.": {},
-    "Words.": {}
+    "Model": {},
+    "SpaceModel": {},
+    "Words": {}
   },
   "0x39eeb4ee6f30fc3f": {
-    "AAAuction.": {
+    "AAAuction": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe",
       "AACommon": "0x39eeb4ee6f30fc3f",
@@ -961,18 +961,18 @@
       "AAFeeManager": "0x39eeb4ee6f30fc3f",
       "AAReferralManager": "0x39eeb4ee6f30fc3f"
     },
-    "AACollectionManager.": {
+    "AACollectionManager": {
       "AACommon": "0x39eeb4ee6f30fc3f"
     },
-    "AACommon.": {},
-    "AACurrencyManager.": {
+    "AACommon": {},
+    "AACurrencyManager": {
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "AADigital.": {
+    "AADigital": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448"
     },
-    "AAExchange.": {
+    "AAExchange": {
       "NFTStorefront": "0x4eb8a10cb9f87357",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe",
@@ -982,14 +982,14 @@
       "AAReferralManager": "0x39eeb4ee6f30fc3f",
       "AACommon": "0x39eeb4ee6f30fc3f"
     },
-    "AAFeeManager.": {
+    "AAFeeManager": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "AACommon": "0x39eeb4ee6f30fc3f",
       "AAReferralManager": "0x39eeb4ee6f30fc3f",
       "AAPhysical": "0x39eeb4ee6f30fc3f",
       "AACurrencyManager": "0x39eeb4ee6f30fc3f"
     },
-    "AAOpenBid.": {
+    "AAOpenBid": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "AACommon": "0x39eeb4ee6f30fc3f",
@@ -998,20 +998,20 @@
       "AAFeeManager": "0x39eeb4ee6f30fc3f",
       "AAReferralManager": "0x39eeb4ee6f30fc3f"
     },
-    "AAPhysical.": {
+    "AAPhysical": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448"
     },
-    "AAReferralManager.": {}
+    "AAReferralManager": {}
   },
   "0x3b73da28c2a82eef": {
-    "Melos.": {
+    "Melos": {
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "MusicBlock.": {
+    "MusicBlock": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "MusicBlockMarket.": {
+    "MusicBlockMarket": {
       "Melos": "0x3b73da28c2a82eef",
       "MusicBlock": "0x3b73da28c2a82eef",
       "FungibleToken": "0xf233dcee88fe0abe",
@@ -1019,25 +1019,25 @@
     }
   },
   "0x3c5959b568896393": {
-    "FUSD.": {
+    "FUSD": {
       "FungibleToken": "0xf233dcee88fe0abe"
     }
   },
   "0x3cb7ceeb625a600a": {
-    "DigitalArt.": {
+    "DigitalArt": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448",
       "Evergreen": "0x3cb7ceeb625a600a"
     },
-    "Evergreen.": {
+    "Evergreen": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448"
     },
-    "FungibleTokenSwitchboard.": {
+    "FungibleTokenSwitchboard": {
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "SequelMarketplace.": {
+    "SequelMarketplace": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NFTStorefront": "0x4eb8a10cb9f87357",
       "MetadataViews": "0x1d7e57aa55817448",
@@ -1046,56 +1046,56 @@
     }
   },
   "0x41cad19decccdf25": {
-    "Owners.": {
+    "Owners": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     }
   },
   "0x427ceada271aa0b1": {
-    "HoodlumsMetadata.": {},
-    "NFTStorefront.": {
+    "HoodlumsMetadata": {},
+    "NFTStorefront": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "SturdyItems.": {
+    "SturdyItems": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448",
       "HoodlumsMetadata": "0x427ceada271aa0b1"
     },
-    "SturdyMinter.": {
+    "SturdyMinter": {
       "SturdyTokens": "0x427ceada271aa0b1",
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "DapperUtilityCoin": "0xead892083b3e2c6c"
     },
-    "SturdyTokens.": {
+    "SturdyTokens": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448"
     }
   },
   "0x429a19abea586a3e": {
-    "MiamiNFT.": {
+    "MiamiNFT": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe"
     }
   },
   "0x438ee7adcae39ab9": {
-    "S1GarmentNFT.": {
+    "S1GarmentNFT": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "S1ItemNFT.": {
+    "S1ItemNFT": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe",
       "S1GarmentNFT": "0x438ee7adcae39ab9",
       "S1MaterialNFT": "0x438ee7adcae39ab9"
     },
-    "S1MaterialNFT.": {
+    "S1MaterialNFT": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "S1MintTransferClaim.": {
+    "S1MintTransferClaim": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe",
       "S1GarmentNFT": "0x438ee7adcae39ab9",
@@ -1104,41 +1104,41 @@
     }
   },
   "0x444f5ea22c6ea12c": {
-    "Collectibles.": {
+    "Collectibles": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "Vouchers.": {
+    "Vouchers": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     }
   },
   "0x44c6a6fd2281b6cc": {
-    "IPackNFT.": {
+    "IPackNFT": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "PDS.": {
+    "PDS": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "IPackNFT": "0x44c6a6fd2281b6cc"
     }
   },
   "0x456d627c3ac86487": {
-    "Popsycl.": {
+    "Popsycl": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "PopsyclAuction.": {
+    "PopsyclAuction": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe",
       "Popsycl": "0x456d627c3ac86487",
       "PopsyclMarketplace": "0x456d627c3ac86487"
     },
-    "PopsyclMarketplace.": {
+    "PopsyclMarketplace": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "Popsycl": "0x456d627c3ac86487"
     },
-    "PopsyclPack.": {
+    "PopsyclPack": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "Popsycl": "0x456d627c3ac86487"
     },
-    "PopsyclPackMarketplace.": {
+    "PopsyclPackMarketplace": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "PopsyclMarketplace": "0x456d627c3ac86487",
       "PopsyclPack": "0x456d627c3ac86487",
@@ -1146,24 +1146,24 @@
     }
   },
   "0x475755d2c9dccc3a": {
-    "TeleportedSportiumToken.": {
+    "TeleportedSportiumToken": {
       "FungibleToken": "0xf233dcee88fe0abe"
     }
   },
   "0x47cbd3edd044cb5d": {
-    "ArleePartner.": {
+    "ArleePartner": {
       "NonFungibleToken": "\"./NonFungibleToken.cdc\"",
       "MetadataViews": "\"./MetadataViews.cdc\""
     },
-    "ArleeScene.": {
+    "ArleeScene": {
       "NonFungibleToken": "\"./NonFungibleToken.cdc\"",
       "MetadataViews": "\"./MetadataViews.cdc\""
     },
-    "ArleeSceneVoucher.": {
+    "ArleeSceneVoucher": {
       "NonFungibleToken": "\"./NonFungibleToken.cdc\"",
       "MetadataViews": "\"./MetadataViews.cdc\""
     },
-    "Arlequin.": {
+    "Arlequin": {
       "FungibleToken": "\"./FungibleToken\"",
       "NonFungibleToken": "\"./NonFungibleToken\"",
       "MetadataViews": "\"./MetadataViews\"",
@@ -1173,23 +1173,23 @@
       "ArleeSceneVoucher": "\"./ArleeSceneVoucher\"",
       "FLOAT": "\"./lib/FLOAT.cdc\""
     },
-    "EggFloat.": {
+    "EggFloat": {
       "NonFungibleToken": "\"./lib/NonFungibleToken.cdc\"",
       "ArleeScene": "\"./ArleeScene.cdc\"",
       "FLOAT": "\"./lib/FLOAT.cdc\""
     }
   },
   "0x497153c597783bc3": {
-    "DieselNFT.": {
+    "DieselNFT": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe"
     }
   },
   "0x4c4a03d405ed9520": {
-    "LibraryPass.": {
+    "LibraryPass": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "PublishedNFTStorefront.": {
+    "PublishedNFTStorefront": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "LibraryPass": "0x4c4a03d405ed9520",
@@ -1197,85 +1197,85 @@
     }
   },
   "0x4c577a03bc1a82e0": {
-    "ZayTraderV2.": {
+    "ZayTraderV2": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FlowToken": "0x1654653399040a61",
       "ZayVerifierV2": "0x4c577a03bc1a82e0"
     },
-    "ZayVerifierV2.": {
+    "ZayVerifierV2": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     }
   },
   "0x4e1a246d0753fe0e": {
-    "NFTStorefront.": {
+    "NFTStorefront": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "StoreFront.": {
+    "StoreFront": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448",
       "StoreFrontViews": "0x4e1a246d0753fe0e"
     },
-    "StoreFrontAdmin.": {
+    "StoreFrontAdmin": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "NFTStorefront": "0x4e1a246d0753fe0e",
       "StoreFront": "0x4e1a246d0753fe0e"
     },
-    "StoreFrontAuction.": {
+    "StoreFrontAuction": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "StoreFrontViews.": {
+    "StoreFrontViews": {
       "MetadataViews": "0x1d7e57aa55817448"
     }
   },
   "0x4e277be3d96ae6a0": {
-    "LithokenFee.": {},
-    "LithokenNFT.": {
+    "LithokenFee": {},
+    "LithokenNFT": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "RedevNFT": "0x4e277be3d96ae6a0"
     },
-    "LithokenOrder.": {
+    "LithokenOrder": {
       "LithokenFee": "0x4e277be3d96ae6a0",
       "FungibleToken": "0xf233dcee88fe0abe",
       "NFTStorefront": "0x4eb8a10cb9f87357",
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "OfferStorefront.": {
+    "OfferStorefront": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "RedevNFT.": {}
+    "RedevNFT": {}
   },
   "0x4eb8a10cb9f87357": {
-    "NFTStorefront.": {
+    "NFTStorefront": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "NFTStorefrontV2.": {
+    "NFTStorefrontV2": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448"
     }
   },
   "0x4eded0de73020ca5": {
-    "CricketMoments.": {
+    "CricketMoments": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "CricketMomentsShardedCollection.": {
+    "CricketMomentsShardedCollection": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "CricketMoments": "0x4eded0de73020ca5"
     },
-    "FazeUtilityCoin.": {
+    "FazeUtilityCoin": {
       "FungibleToken": "0xf233dcee88fe0abe"
     }
   },
   "0x504cbf9620ea384e": {
-    "SomePlaceCollectible.": {
+    "SomePlaceCollectible": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "SomePlaceCounter": "0x504cbf9620ea384e"
     },
-    "SomePlaceCounter.": {},
-    "SomePlaceManager.": {
+    "SomePlaceCounter": {},
+    "SomePlaceManager": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "SomePlaceCollectible": "0x504cbf9620ea384e",
@@ -1284,11 +1284,11 @@
     }
   },
   "0x52cbea4e6f616b8e": {
-    "LibraryPass.": {
+    "LibraryPass": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448"
     },
-    "PublishedNFTStorefront.": {
+    "PublishedNFTStorefront": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "LibraryPass": "0x52cbea4e6f616b8e",
@@ -1296,7 +1296,7 @@
     }
   },
   "0x543606e9393a64a6": {
-    "SoulMade.": {
+    "SoulMade": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "NFTStorefront": "0x4eb8a10cb9f87357",
       "SoulMadeComponent": "0x543606e9393a64a6",
@@ -1305,36 +1305,36 @@
       "FungibleToken": "0xf233dcee88fe0abe",
       "FlowToken": "0x1654653399040a61"
     },
-    "SoulMadeComponent.": {
+    "SoulMadeComponent": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448"
     },
-    "SoulMadeMain.": {
+    "SoulMadeMain": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448",
       "SoulMadeComponent": "0x543606e9393a64a6"
     },
-    "SoulMadeMarketplace.": {
+    "SoulMadeMarketplace": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "SoulMadeComponent": "0x543606e9393a64a6",
       "SoulMadeMain": "0x543606e9393a64a6",
       "FungibleToken": "0xf233dcee88fe0abe",
       "FlowToken": "0x1654653399040a61"
     },
-    "SoulMadePack.": {
+    "SoulMadePack": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "SoulMadeComponent": "0x543606e9393a64a6",
       "SoulMadeMain": "0x543606e9393a64a6"
     }
   },
   "0x5634aefcb76e7d8c": {
-    "Melos.": {
+    "Melos": {
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "MusicBlock.": {
+    "MusicBlock": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "MusicBlockMarket.": {
+    "MusicBlockMarket": {
       "Melos": "0xff5393e7c38b1512",
       "MusicBlock": "0xff5393e7c38b1512",
       "FungibleToken": "0xf233dcee88fe0abe",
@@ -1342,36 +1342,36 @@
     }
   },
   "0x56c57a1d04b82fa8": {
-    "BSListings.": {
+    "BSListings": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "BSMarket.": {
+    "BSMarket": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "DevryCoin": "0x56c57a1d04b82fa8",
       "BSListings": "0x56c57a1d04b82fa8"
     },
-    "DevryCoin.": {
+    "DevryCoin": {
       "FungibleToken": "0xf233dcee88fe0abe"
     }
   },
   "0x5892036f9111fbb8": {
-    "NftReality.": {
+    "NftReality": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448"
     }
   },
   "0x5a8fb12692f5a446": {
-    "CheezeMarket.": {
+    "CheezeMarket": {
       "CheezeNFT": "0x5a8fb12692f5a446",
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FUSD": "0x3c5959b568896393"
     },
-    "CheezeNFT.": {
+    "CheezeNFT": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "CheezeVouchers.": {
+    "CheezeVouchers": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "FUSD": "0x3c5959b568896393",
       "CheezeNFT": "0x5a8fb12692f5a446",
@@ -1379,13 +1379,13 @@
     }
   },
   "0x5b82f21c0edf76e3": {
-    "StarlyCard.": {
+    "StarlyCard": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448",
       "StarlyMetadata": "0x5b82f21c0edf76e3",
       "StarlyMetadataViews": "0x5b82f21c0edf76e3"
     },
-    "StarlyCardBid.": {
+    "StarlyCardBid": {
       "StarlyCard": "0x5b82f21c0edf76e3",
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
@@ -1393,65 +1393,65 @@
       "StakedStarlyCard": "0x29fcd0b5e444242a",
       "StarlyCardMarket": "0x5b82f21c0edf76e3"
     },
-    "StarlyCardMarket.": {
+    "StarlyCardMarket": {
       "FUSD": "0x3c5959b568896393",
       "StarlyCard": "0x5b82f21c0edf76e3",
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "StarlyCollectorScore.": {},
-    "StarlyIDParser.": {},
-    "StarlyMetadata.": {
+    "StarlyCollectorScore": {},
+    "StarlyIDParser": {},
+    "StarlyMetadata": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "MetadataViews": "0x1d7e57aa55817448",
       "StarlyCollectorScore": "0x5b82f21c0edf76e3",
       "StarlyMetadataViews": "0x5b82f21c0edf76e3",
       "StarlyIDParser": "0x5b82f21c0edf76e3"
     },
-    "StarlyMetadataViews.": {},
-    "StarlyPack.": {
+    "StarlyMetadataViews": {},
+    "StarlyPack": {
       "FUSD": "0x3c5959b568896393",
       "FungibleToken": "0xf233dcee88fe0abe",
       "StarlyCardMarket": "0x5b82f21c0edf76e3"
     }
   },
   "0x5c0992b465832a94": {
-    "TKNZ.": {
+    "TKNZ": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "TKNZAdminReceiver.": {
+    "TKNZAdminReceiver": {
       "TKNZ": "0x5c0992b465832a94"
     },
-    "TKNZMarket.": {
+    "TKNZMarket": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "TKNZ": "0x5c0992b465832a94",
       "TKNZToken": "0x5c0992b465832a94"
     },
-    "TKNZToken.": {
+    "TKNZToken": {
       "FungibleToken": "0xf233dcee88fe0abe"
     }
   },
   "0x5c57f79c6694797f": {
-    "CoatCheck.": {
+    "CoatCheck": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "Flowty.": {
+    "Flowty": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FUSD": "0x3c5959b568896393",
       "FlowtyUtils": "0x5c57f79c6694797f",
       "CoatCheck": "0x5c57f79c6694797f"
     },
-    "FlowtyRentals.": {
+    "FlowtyRentals": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FlowtyUtils": "0x5c57f79c6694797f",
       "Flowty": "0x5c57f79c6694797f",
       "CoatCheck": "0x5c57f79c6694797f"
     },
-    "FlowtyUtils.": {
+    "FlowtyUtils": {
       "FUSD": "0x3c5959b568896393",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe",
@@ -1459,27 +1459,27 @@
     }
   },
   "0x5cdeb067561defcb": {
-    "TiblesApp.": {},
-    "TiblesNFT.": {},
-    "TiblesProducer.": {
+    "TiblesApp": {},
+    "TiblesNFT": {},
+    "TiblesProducer": {
       "TiblesNFT": "0x5cdeb067561defcb"
     }
   },
   "0x602e888f32abc278": {
-    "SoundlinksDID.": {
+    "SoundlinksDID": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     }
   },
   "0x609e10301860b683": {
-    "IPierPair.": {
+    "IPierPair": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "PierLPToken": "0x609e10301860b683",
       "PierMath": "0xa378eeb799df8387"
     },
-    "PierLPToken.": {
+    "PierLPToken": {
       "MultiFungibleToken": "0xa378eeb799df8387"
     },
-    "PierPair.": {
+    "PierPair": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "MultiFungibleToken": "0xa378eeb799df8387",
       "PierLPToken": "0x609e10301860b683",
@@ -1487,7 +1487,7 @@
       "PierMath": "0xa378eeb799df8387",
       "PierSwapSettings": "0x066a74dfb4da0306"
     },
-    "PierSwapFactory.": {
+    "PierSwapFactory": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "PierLPToken": "0x609e10301860b683",
       "IPierPair": "0x609e10301860b683",
@@ -1499,51 +1499,51 @@
     }
   },
   "0x62430cf28c26d095": {
-    "StakingProxy.": {}
+    "StakingProxy": {}
   },
   "0x6292b23b3eb3f999": {
-    "Elvn.": {
+    "Elvn": {
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "ElvnFUSDTreasury.": {
+    "ElvnFUSDTreasury": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "FUSD": "0x3c5959b568896393",
       "Elvn": "0x6292b23b3eb3f999"
     },
-    "Moments.": {
+    "Moments": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     }
   },
   "0x62b3063fbe672fc8": {
-    "ZeedzDrops.": {
+    "ZeedzDrops": {
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "ZeedzINO.": {
+    "ZeedzINO": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448"
     },
-    "ZeedzMarketplace.": {
+    "ZeedzMarketplace": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NFTStorefront": "0x4eb8a10cb9f87357"
     }
   },
   "0x64f28dce444ac121": {
-    "SevenOneZeroPhantomNFT.": {
+    "SevenOneZeroPhantomNFT": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "SevenOneZeroPhantomNFTDrop.": {
+    "SevenOneZeroPhantomNFTDrop": {
       "SevenOneZeroPhantomNFT": "0x64f28dce444ac121"
     }
   },
   "0x667a16294a089ef8": {
-    "SomePlaceCollectible.": {
+    "SomePlaceCollectible": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "SomePlaceCounter": "0x667a16294a089ef8",
       "MetadataViews": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "SomePlaceCounter.": {},
-    "SomePlaceManager.": {
+    "SomePlaceCounter": {},
+    "SomePlaceManager": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "SomePlaceCollectible": "0x667a16294a089ef8",
@@ -1551,56 +1551,56 @@
       "FUSD": "0x3c5959b568896393",
       "SomePlacePrimarySaleHelper": "0x667a16294a089ef8"
     },
-    "SomePlacePrimarySaleHelper.": {
+    "SomePlacePrimarySaleHelper": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "SomePlaceCollectible": "0x667a16294a089ef8"
     }
   },
   "0x66ad29c7d7465437": {
-    "DooverseAdminNFTStorefront.": {
+    "DooverseAdminNFTStorefront": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe",
       "DooverseItems": "0x66ad29c7d7465437"
     },
-    "DooverseItems.": {
+    "DooverseItems": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     }
   },
   "0x6831760534292098": {
-    "NFTAirDrop.": {
+    "NFTAirDrop": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "OneFootballCollectible.": {
+    "OneFootballCollectible": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     }
   },
   "0x6c3ff40b90b928ab": {
-    "RCRDSHPNFT.": {
+    "RCRDSHPNFT": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448"
     }
   },
   "0x6c4fe48768523577": {
-    "SchmoesNFT.": {
+    "SchmoesNFT": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe",
       "FlowToken": "0x1654653399040a61",
       "SchmoesPreLaunchToken": "0x6c4fe48768523577"
     },
-    "SchmoesNFTAdmin.": {
+    "SchmoesNFTAdmin": {
       "SchmoesNFT": "0x6c4fe48768523577"
     },
-    "SchmoesPreLaunchToken.": {
+    "SchmoesPreLaunchToken": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448"
     },
-    "SchmoesPreLaunchTokenAdmin.": {
+    "SchmoesPreLaunchTokenAdmin": {
       "SchmoesPreLaunchToken": "0x6c4fe48768523577"
     }
   },
   "0x6d008a788fc27265": {
-    "Crave.": {
+    "Crave": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe",
@@ -1608,82 +1608,82 @@
     }
   },
   "0x6ef4681fa14c9594": {
-    "NFTStorefront.": {
+    "NFTStorefront": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "SecondaryMarketplace.": {
+    "SecondaryMarketplace": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "StoreFrontSuperAdmin": "0x6ef4681fa14c9594"
     },
-    "StoreFront.": {
+    "StoreFront": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448",
       "StoreFrontViews": "0x6ef4681fa14c9594"
     },
-    "StoreFrontAuction.": {
+    "StoreFrontAuction": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "StoreFrontSuperAdmin.": {
+    "StoreFrontSuperAdmin": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "NFTStorefront": "0x6ef4681fa14c9594",
       "StoreFront": "0x6ef4681fa14c9594"
     },
-    "StoreFrontViews.": {
+    "StoreFrontViews": {
       "MetadataViews": "0x1d7e57aa55817448"
     }
   },
   "0x6f01a4b0046c1f87": {
-    "TrartContractNFT.": {
+    "TrartContractNFT": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448"
     }
   },
   "0x718efe5e88fe48ea": {
-    "Necryptolis.": {
+    "Necryptolis": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448"
     }
   },
   "0x73b22c80a051e2ff": {
-    "NFTContract.": {
+    "NFTContract": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     }
   },
   "0x758252ab932a3416": {
-    "YahooCollectible.": {
+    "YahooCollectible": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448"
     },
-    "YahooPartnersCollectible.": {
+    "YahooPartnersCollectible": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448"
     }
   },
   "0x75e0b6de94eb05d0": {
-    "MysteryBox.": {
+    "MysteryBox": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "NyatheesOVO": "0x75e0b6de94eb05d0",
       "FungibleToken": "0xf233dcee88fe0abe",
       "FUSD": "0x3c5959b568896393"
     },
-    "NyatheesOVO.": {
+    "NyatheesOVO": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "OVOMarketPlace.": {
+    "OVOMarketPlace": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NyatheesOVO": "0x75e0b6de94eb05d0",
       "NonFungibleToken": "0x1d7e57aa55817448"
     }
   },
   "0x7620acf6d7f2468a": {
-    "Admin.": {
+    "Admin": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "FUSD": "0x3c5959b568896393",
       "NonFungibleToken": "0x1d7e57aa55817448",
@@ -1693,12 +1693,12 @@
       "Bl0xPack": "0x7620acf6d7f2468a",
       "MetadataViews": "0x1d7e57aa55817448"
     },
-    "Bl0x.": {
+    "Bl0x": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448",
       "FindViews": "\"./FindViews.cdc\""
     },
-    "Bl0xPack.": {
+    "Bl0xPack": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe",
       "MetadataViews": "0x1d7e57aa55817448",
@@ -1707,42 +1707,42 @@
       "FLOAT": "0x2d4c3caffbeab845",
       "Bl0x": "0x7620acf6d7f2468a"
     },
-    "Clock.": {
+    "Clock": {
       "YourThing": "\"../contracts/YouThing.cdc\""
     },
-    "Debug.": {}
+    "Debug": {}
   },
   "0x766b859539a6679b": {
-    "NFTStorefront.": {
+    "NFTStorefront": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "SecondaryMarketplace.": {
+    "SecondaryMarketplace": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "StoreFrontSuperAdmin": "0x766b859539a6679b"
     },
-    "StoreFront.": {
+    "StoreFront": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448",
       "StoreFrontViews": "0x766b859539a6679b"
     },
-    "StoreFrontAuction.": {
+    "StoreFrontAuction": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "StoreFrontSuperAdmin.": {
+    "StoreFrontSuperAdmin": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "NFTStorefront": "0x766b859539a6679b",
       "StoreFront": "0x766b859539a6679b"
     },
-    "StoreFrontViews.": {
+    "StoreFrontViews": {
       "MetadataViews": "0x1d7e57aa55817448"
     }
   },
   "0x76a9b420a331b9f0": {
-    "CompoundInterest.": {},
-    "StarlyTokenStaking.": {
+    "CompoundInterest": {},
+    "StarlyTokenStaking": {
       "CompoundInterest": "0x76a9b420a331b9f0",
       "FungibleToken": "0xf233dcee88fe0abe",
       "MetadataViews": "0x1d7e57aa55817448",
@@ -1751,38 +1751,38 @@
     }
   },
   "0x7752ea736384322f": {
-    "TheFabricantAccessPass.": {
+    "TheFabricantAccessPass": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448",
       "TheFabricantMetadataViews": "0x7752ea736384322f"
     },
-    "TheFabricantFBRCAirdrop.": {
+    "TheFabricantFBRCAirdrop": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "FBRC": "0xfc91de5e6566cc7c"
     },
-    "TheFabricantMetadataViews.": {
+    "TheFabricantMetadataViews": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "MetadataViews": "0x1d7e57aa55817448"
     },
-    "TheFabricantNFTAccess.": {
+    "TheFabricantNFTAccess": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "TheFabricantS2GarmentNFT.": {
+    "TheFabricantS2GarmentNFT": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "TheFabricantS2ItemNFT.": {
+    "TheFabricantS2ItemNFT": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe",
       "TheFabricantS2GarmentNFT": "0x7752ea736384322f",
       "TheFabricantS2MaterialNFT": "0x7752ea736384322f"
     },
-    "TheFabricantS2MaterialNFT.": {
+    "TheFabricantS2MaterialNFT": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "TheFabricantS2Minting.": {
+    "TheFabricantS2Minting": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe",
       "TheFabricantS2GarmentNFT": "0x7752ea736384322f",
@@ -1796,24 +1796,24 @@
     }
   },
   "0x7859c48816bfea3c": {
-    "BnGNFT.": {
+    "BnGNFT": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     }
   },
   "0x7ba45bdcac17806a": {
-    "AnchainNFTTrader.": {
+    "AnchainNFTTrader": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "AnchainUtils.": {
+    "AnchainUtils": {
       "MetadataViews": "0x1d7e57aa55817448"
     }
   },
   "0x7c11edb826692404": {
-    "Ticket.": {
+    "Ticket": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "Tickets.": {
+    "Tickets": {
       "FlowToken": "0x1654653399040a61",
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
@@ -1822,178 +1822,178 @@
       "VnMissCandidate": "0x7c11edb826692404",
       "Ticket": "0x7c11edb826692404"
     },
-    "TicketsAuction.": {
+    "TicketsAuction": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FlowToken": "0x1654653399040a61",
       "Tickets": "0x7c11edb826692404"
     },
-    "VnMiss.": {
+    "VnMiss": {
       "MetadataViews": "0x1d7e57aa55817448",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "VnMissCandidate": "0x7c11edb826692404"
     },
-    "VnMissCandidate.": {},
-    "VnMissSwap.": {
+    "VnMissCandidate": {},
+    "VnMissSwap": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "VnMiss": "0x7c11edb826692404",
       "VnMissCandidate": "0x7c11edb826692404"
     },
-    "Whitelist.": {}
+    "Whitelist": {}
   },
   "0x807c3d470888cc48": {
-    "Backpack.": {
+    "Backpack": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448",
       "Patch": "0x807c3d470888cc48"
     },
-    "BackpackMinter.": {
+    "BackpackMinter": {
       "Flunks": "0x807c3d470888cc48",
       "Backpack": "0x807c3d470888cc48",
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "DapperUtilityCoin": "0xead892083b3e2c6c"
     },
-    "Flunks.": {
+    "Flunks": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448"
     },
-    "FlunksWhitelistMinter.": {
+    "FlunksWhitelistMinter": {
       "Flunks": "0x807c3d470888cc48",
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "DapperUtilityCoin": "0xead892083b3e2c6c"
     },
-    "Patch.": {
+    "Patch": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448"
     }
   },
   "0x80af1db15aa6535a": {
-    "SNKRHUDNFT.": {
+    "SNKRHUDNFT": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448"
     }
   },
   "0x81e95660ab5308e1": {
-    "TFCItems.": {
+    "TFCItems": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     }
   },
   "0x82b54037a8f180cf": {
-    "Shard.": {
+    "Shard": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     }
   },
   "0x82ed1b9cba5bb1b3": {
-    "ACCO_SOLEIL.": {
+    "ACCO_SOLEIL": {
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "BYPRODUCT.": {
+    "BYPRODUCT": {
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "IAT.": {
+    "IAT": {
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "JOSHIN.": {
+    "JOSHIN": {
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "Karat.": {
+    "Karat": {
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "KaratItems.": {
+    "KaratItems": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "KaratItemsMarket.": {
+    "KaratItemsMarket": {
       "KaratItems": "0x82ed1b9cba5bb1b3",
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "KaratNFT.": {
+    "KaratNFT": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "KaratNFTMarket.": {
+    "KaratNFTMarket": {
       "KaratNFT": "0x82ed1b9cba5bb1b3",
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "Karatv2.": {
+    "Karatv2": {
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "MRFRIENDLY.": {
+    "MRFRIENDLY": {
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "PEYE.": {
+    "PEYE": {
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "Sorachi.": {
+    "Sorachi": {
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "Story.": {
+    "Story": {
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "TOM.": {
+    "TOM": {
       "FungibleToken": "0xf233dcee88fe0abe"
     }
   },
   "0x840b99b76051d886": {
-    "KeyManager.": {}
+    "KeyManager": {}
   },
   "0x850fd81a421217d8": {
-    "Popsycl.": {
+    "Popsycl": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe",
       "PopsyclRates": "0x850fd81a421217d8",
       "MetadataViews": "0x1d7e57aa55817448"
     },
-    "PopsyclAuction.": {
+    "PopsyclAuction": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe",
       "Popsycl": "0x850fd81a421217d8",
       "PopsyclMarketplace": "0x850fd81a421217d8"
     },
-    "PopsyclMarketplace.": {
+    "PopsyclMarketplace": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "Popsycl": "0x850fd81a421217d8"
     },
-    "PopsyclPack.": {
+    "PopsyclPack": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "Popsycl": "0x850fd81a421217d8"
     },
-    "PopsyclPackMarketplace.": {
+    "PopsyclPackMarketplace": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "PopsyclMarketplace": "0x850fd81a421217d8",
       "PopsyclPack": "0x850fd81a421217d8",
       "Popsycl": "0x850fd81a421217d8"
     },
-    "PopsyclRates.": {}
+    "PopsyclRates": {}
   },
   "0x856bd81e73e6752b": {
-    "PonsCertificationContract.": {},
-    "PonsEscrowContract.": {
+    "PonsCertificationContract": {},
+    "PonsEscrowContract": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "FlowToken": "0x1654653399040a61",
       "PonsNftContractInterface": "0x856bd81e73e6752b",
       "PonsUtils": "0x856bd81e73e6752b"
     },
-    "PonsNftContract.": {
+    "PonsNftContract": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "PonsNftContractInterface": "0x856bd81e73e6752b",
       "PonsUtils": "0x856bd81e73e6752b"
     },
-    "PonsNftContractInterface.": {
+    "PonsNftContractInterface": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "PonsCertificationContract": "0x856bd81e73e6752b"
     },
-    "PonsNftContract_v1.": {
+    "PonsNftContract_v1": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "PonsCertificationContract": "0x856bd81e73e6752b",
       "PonsNftContractInterface": "0x856bd81e73e6752b",
       "PonsNftContract": "0x856bd81e73e6752b",
       "PonsUtils": "0x856bd81e73e6752b"
     },
-    "PonsNftMarketAdminContract_v1.": {
+    "PonsNftMarketAdminContract_v1": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "PonsNftContractInterface": "0x856bd81e73e6752b",
       "PonsNftContract": "0x856bd81e73e6752b",
@@ -2002,7 +2002,7 @@
       "PonsNftMarketContract_v1": "0x856bd81e73e6752b",
       "PonsUtils": "0x856bd81e73e6752b"
     },
-    "PonsNftMarketContract.": {
+    "PonsNftMarketContract": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FlowToken": "0x1654653399040a61",
@@ -2010,7 +2010,7 @@
       "PonsNftContract": "0x856bd81e73e6752b",
       "PonsUtils": "0x856bd81e73e6752b"
     },
-    "PonsNftMarketContract_v1.": {
+    "PonsNftMarketContract_v1": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "FlowToken": "0x1654653399040a61",
       "NonFungibleToken": "0x1d7e57aa55817448",
@@ -2020,60 +2020,60 @@
       "PonsNftMarketContract": "0x856bd81e73e6752b",
       "PonsUtils": "0x856bd81e73e6752b"
     },
-    "PonsUtils.": {
+    "PonsUtils": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "FlowToken": "0x1654653399040a61",
       "NonFungibleToken": "0x1d7e57aa55817448"
     }
   },
   "0x85b8bbf926dcddfa": {
-    "NFTStoreFront.": {
+    "NFTStoreFront": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "NowggNFT.": {
+    "NowggNFT": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "NowggPuzzle.": {
+    "NowggPuzzle": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "NowggNFT": "0x85b8bbf926dcddfa"
     }
   },
   "0x85f4c53e9a2cdeee": {
-    "Controller.": {
+    "Controller": {
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "SocialToken.": {
+    "SocialToken": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "Controller": "0x85f4c53e9a2cdeee",
       "FUSD": "0x3c5959b568896393"
     }
   },
   "0x86185fba578bc773": {
-    "FanTopMarket.": {
+    "FanTopMarket": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FanTopToken": "0x86185fba578bc773"
     },
-    "FanTopPermission.": {
+    "FanTopPermission": {
       "FanTopToken": "0x86185fba578bc773"
     },
-    "FanTopPermissionV2a.": {
+    "FanTopPermissionV2a": {
       "FanTopToken": "0x86185fba578bc773",
       "FanTopMarket": "0x86185fba578bc773",
       "FanTopSerial": "0x86185fba578bc773",
       "Signature": "0x86185fba578bc773"
     },
-    "FanTopSerial.": {},
-    "FanTopToken.": {
+    "FanTopSerial": {},
+    "FanTopToken": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FanTopSerial": "0x86185fba578bc773"
     },
-    "Signature.": {}
+    "Signature": {}
   },
   "0x8624b52f9ddcd04a": {
-    "FlowClusterQC.": {},
-    "FlowDKG.": {},
-    "FlowEpoch.": {
+    "FlowClusterQC": {},
+    "FlowDKG": {},
+    "FlowEpoch": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "FlowToken": "0x1654653399040a61",
       "FlowIDTableStaking": "0x8624b52f9ddcd04a",
@@ -2081,14 +2081,14 @@
       "FlowDKG": "0x8624b52f9ddcd04a",
       "FlowFees": "0xf919ee77447b7497"
     },
-    "FlowIDTableStaking.": {
+    "FlowIDTableStaking": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "FlowToken": "0x1654653399040a61",
       "FlowFees": "0xf919ee77447b7497"
     }
   },
   "0x86b4a0010a71cfc3": {
-    "Beam.": {
+    "Beam": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe",
@@ -2096,10 +2096,10 @@
     }
   },
   "0x87647147949dadd0": {
-    "NFluence.": {
+    "NFluence": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "NFluenceAuction.": {
+    "NFluenceAuction": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "NFluence": "0x87647147949dadd0",
@@ -2107,28 +2107,28 @@
     }
   },
   "0x877538e6851faa5d": {
-    "TestingCCC.": {
+    "TestingCCC": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448"
     }
   },
   "0x8aa509e8b50a80cd": {
-    "Auction.": {
+    "Auction": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "FUSD": "0x3c5959b568896393",
       "Collectible": "0x8aa509e8b50a80cd",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "Edition": "0x8aa509e8b50a80cd"
     },
-    "AuthChecker.": {},
-    "Collectible.": {
+    "AuthChecker": {},
+    "Collectible": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "Edition": "0x8aa509e8b50a80cd"
     },
-    "Edition.": {
+    "Edition": {
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "MarketPlace.": {
+    "MarketPlace": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "FlowToken": "0x1654653399040a61",
       "Collectible": "0x8aa509e8b50a80cd",
@@ -2136,7 +2136,7 @@
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FUSD": "0x3c5959b568896393"
     },
-    "OpenEdition.": {
+    "OpenEdition": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "FlowToken": "0x1654653399040a61",
       "Collectible": "0x8aa509e8b50a80cd",
@@ -2146,26 +2146,26 @@
     }
   },
   "0x8affe45ad5f69282": {
-    "TrmAssetV1.": {
+    "TrmAssetV1": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "TrmMarketV1.": {
+    "TrmMarketV1": {
       "TrmAssetV1": "0x8affe45ad5f69282",
       "TrmRentV1": "0x8affe45ad5f69282",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe",
       "FUSD": "0x3c5959b568896393"
     },
-    "TrmRentV1.": {
+    "TrmRentV1": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     }
   },
   "0x8b148183c28ff88f": {
-    "Gaia.": {
+    "Gaia": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "GaiaFee.": {},
-    "GaiaOrder.": {
+    "GaiaFee": {},
+    "GaiaOrder": {
       "GaiaFee": "0x8b148183c28ff88f",
       "FungibleToken": "0xf233dcee88fe0abe",
       "NFTStorefront": "0x4eb8a10cb9f87357",
@@ -2173,40 +2173,40 @@
     }
   },
   "0x8b935cd43003d4b2": {
-    "Metaya.": {
+    "Metaya": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "SoundlinksDID": "0x602e888f32abc278"
     },
-    "MetayaBeneficiaryCut.": {
+    "MetayaBeneficiaryCut": {
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "MetayaShardedCollection.": {
+    "MetayaShardedCollection": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "Metaya": "0x8b935cd43003d4b2"
     },
-    "MetayaUtilityCoin.": {
+    "MetayaUtilityCoin": {
       "FungibleToken": "0xf233dcee88fe0abe"
     }
   },
   "0x8c9bbcdcd7514081": {
-    "GogoroCollectible.": {
+    "GogoroCollectible": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448"
     }
   },
   "0x8cd022b4fb8b8c7b": {
-    "Domains.": {
+    "Domains": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "Flowns.": {
+    "Flowns": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "Domains": "0x8cd022b4fb8b8c7b"
     }
   },
   "0x8d0e87b65159ae63": {
-    "FlowStakingCollection.": {
+    "FlowStakingCollection": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "FlowToken": "0x1654653399040a61",
       "FlowIDTableStaking": "0x8624b52f9ddcd04a",
@@ -2216,7 +2216,7 @@
       "FlowDKG": "0x8624b52f9ddcd04a",
       "FlowEpoch": "0x8624b52f9ddcd04a"
     },
-    "LockedTokens.": {
+    "LockedTokens": {
       "FlowToken": "0x1654653399040a61",
       "FungibleToken": "0xf233dcee88fe0abe",
       "FlowIDTableStaking": "0x8624b52f9ddcd04a",
@@ -2225,33 +2225,33 @@
     }
   },
   "0x8d4fa88ffa2d9117": {
-    "RacingTime.": {
+    "RacingTime": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     }
   },
   "0x8d559d0fcf51d5e5": {
-    "BallerzSimz.": {
+    "BallerzSimz": {
       "Gaia": "0x8b148183c28ff88f",
       "BounceToken": "0x8d559d0fcf51d5e5",
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "BounceToken.": {
+    "BounceToken": {
       "FungibleToken": "0xf233dcee88fe0abe"
     }
   },
   "0x8de96244f54db422": {
-    "SportsIconBeneficiaries.": {
+    "SportsIconBeneficiaries": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "FUSD": "0x3c5959b568896393",
       "FlowToken": "0x1654653399040a61"
     },
-    "SportsIconCollectible.": {
+    "SportsIconCollectible": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "SportsIconCounter": "0x8de96244f54db422",
       "SportsIconBeneficiaries": "0x8de96244f54db422"
     },
-    "SportsIconCounter.": {},
-    "SportsIconManager.": {
+    "SportsIconCounter": {},
+    "SportsIconManager": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FlowToken": "0x1654653399040a61",
@@ -2263,63 +2263,63 @@
       "SportsIconPrimarySalePrices": "0x8de96244f54db422",
       "TokenForwarding": "0xe544175ee0461c4b"
     },
-    "SportsIconPrimarySalePrices.": {
+    "SportsIconPrimarySalePrices": {
       "SportsIconNFTStorefront": "0x03c8261a06cb1b42"
     }
   },
   "0x8ea44ab931cac762": {
-    "CryptoZooNFT.": {
+    "CryptoZooNFT": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x8ea44ab931cac762"
     },
-    "CryptoZooNFTMinter.": {
+    "CryptoZooNFTMinter": {
       "CryptoZooNFT": "0x8ea44ab931cac762",
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FlowToken": "0x1654653399040a61"
     },
-    "MetadataViews.": {}
+    "MetadataViews": {}
   },
   "0x8ebcbfd516b1da27": {
-    "MFLAdmin.": {},
-    "MFLPack.": {
+    "MFLAdmin": {},
+    "MFLPack": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448",
       "MFLViews": "0x8ebcbfd516b1da27",
       "MFLPackTemplate": "0x8ebcbfd516b1da27"
     },
-    "MFLPackTemplate.": {},
-    "MFLPlayer.": {
+    "MFLPackTemplate": {},
+    "MFLPlayer": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448",
       "MFLViews": "0x8ebcbfd516b1da27",
       "MFLAdmin": "0x8ebcbfd516b1da27"
     },
-    "MFLViews.": {
+    "MFLViews": {
       "MetadataViews": "0x1d7e57aa55817448",
       "MFLPackTemplate": "0x8ebcbfd516b1da27"
     }
   },
   "0x91960a2ca966a13e": {
-    "VictoryCollectible.": {
+    "VictoryCollectible": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "VictoryCollectibleSaleOffer.": {
+    "VictoryCollectibleSaleOffer": {
       "VictoryCollectible": "0x91960a2ca966a13e",
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "VictoryNFTCollectionItem.": {
+    "VictoryNFTCollectionItem": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "VictoryNFTCollectionStorefront.": {
+    "VictoryNFTCollectionStorefront": {
       "VictoryNFTCollectionItem": "0x91960a2ca966a13e",
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448"
     }
   },
   "0x921ea449dffec68a": {
-    "Flovatar.": {
+    "Flovatar": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FlowToken": "0x1654653399040a61",
@@ -2328,22 +2328,22 @@
       "FlovatarPack": "0x921ea449dffec68a",
       "MetadataViews": "0x1d7e57aa55817448"
     },
-    "FlovatarComponent.": {
+    "FlovatarComponent": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FlowToken": "0x1654653399040a61",
       "FlovatarComponentTemplate": "0x921ea449dffec68a",
       "MetadataViews": "0x1d7e57aa55817448"
     },
-    "FlovatarComponentTemplate.": {},
-    "FlovatarMarketplace.": {
+    "FlovatarComponentTemplate": {},
+    "FlovatarMarketplace": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FlowToken": "0x1654653399040a61",
       "Flovatar": "0x921ea449dffec68a",
       "FlovatarComponent": "0x921ea449dffec68a"
     },
-    "FlovatarPack.": {
+    "FlovatarPack": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FlowToken": "0x1654653399040a61",
@@ -2353,63 +2353,63 @@
     }
   },
   "0x93615d25d14fa337": {
-    "ChainmonstersGame.": {},
-    "ChainmonstersRewards.": {
+    "ChainmonstersGame": {},
+    "ChainmonstersRewards": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     }
   },
   "0x9775f809d4927419": {
-    "wrappedboredape.": {
+    "wrappedboredape": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448"
     }
   },
   "0x97a1ae2c0cebb6fb": {
-    "VeraEvent.": {},
-    "VeraTicket.": {
+    "VeraEvent": {},
+    "VeraTicket": {
       "VeraEvent": "0x97a1ae2c0cebb6fb",
       "NonFungibleToken": "0x1d7e57aa55817448"
     }
   },
   "0x98c9c2e548b84d31": {
-    "CaaArts.": {
+    "CaaArts": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448"
     },
-    "CaaPass.": {
+    "CaaPass": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448"
     },
-    "ContributionPoint.": {
+    "ContributionPoint": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "Pausable": "0x98c9c2e548b84d31"
     },
-    "Pausable.": {},
-    "SwapTrader.": {
+    "Pausable": {},
+    "SwapTrader": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     }
   },
   "0x9969d64233d69723": {
-    "BlockleteMarket_NFT.": {
+    "BlockleteMarket_NFT": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "FUSD": "0x3c5959b568896393",
       "Blockletes_NFT": "0x9969d64233d69723"
     },
-    "BlockleteMarket_NFT_V2.": {
+    "BlockleteMarket_NFT_V2": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "FUSD": "0x3c5959b568896393",
       "Blockletes_NFT_V2": "0x9969d64233d69723"
     },
-    "Blockletes_NFT.": {
+    "Blockletes_NFT": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "Blockletes_NFT_V2.": {
+    "Blockletes_NFT_V2": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "Gear_1.": {
+    "Gear_1": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "ProShop_1.": {
+    "ProShop_1": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe",
       "FUSD": "0x3c5959b568896393",
@@ -2417,7 +2417,7 @@
     }
   },
   "0xa0ebe96eb1366be6": {
-    "PierRouter.": {
+    "PierRouter": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "PierPair": "0x609e10301860b683",
       "IPierPair": "0x609e10301860b683",
@@ -2425,7 +2425,7 @@
       "PierLPToken": "0x609e10301860b683",
       "PierRouterLib": "0xa0ebe96eb1366be6"
     },
-    "PierRouterLib.": {
+    "PierRouterLib": {
       "PierSwapFactory": "0x609e10301860b683",
       "PierSwapSettings": "0x066a74dfb4da0306",
       "FungibleToken": "0xf233dcee88fe0abe",
@@ -2435,102 +2435,102 @@
     }
   },
   "0xa8d493db1bb4df56": {
-    "NonFungibleToken.": {},
-    "SolarpupsMarket.": {
+    "NonFungibleToken": {},
+    "SolarpupsMarket": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "SolarpupsNFT": "0xa8d493db1bb4df56",
       "FungibleToken": "0xf233dcee88fe0abe",
       "FlowToken": "0x1654653399040a61"
     },
-    "SolarpupsNFT.": {
+    "SolarpupsNFT": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe",
       "MetadataViews": "0x1d7e57aa55817448"
     }
   },
   "0xa957459edd0936d4": {
-    "LicensedNFT.": {},
-    "MatrixWorldAssetsNFT.": {
+    "LicensedNFT": {},
+    "MatrixWorldAssetsNFT": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "LicensedNFT": "0xa957459edd0936d4"
     }
   },
   "0xa95b021cf8a30d80": {
-    "BarterYardPackNFT.": {
+    "BarterYardPackNFT": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448"
     },
-    "NFTAirDrop.": {
+    "NFTAirDrop": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     }
   },
   "0xaac12f8ba7b6bacd": {
-    "Domains.": {
+    "Domains": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "Flowns.": {
+    "Flowns": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "Domains": "0xaac12f8ba7b6bacd"
     }
   },
   "0xabd6e80be7e9682c": {
-    "KlktnNFT.": {
+    "KlktnNFT": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "KlktnNFT2.": {
+    "KlktnNFT2": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "KlktnNFTProxy.": {
+    "KlktnNFTProxy": {
       "KlktnNFT2": "0xabd6e80be7e9682c",
       "KlktnNFTTimestamps": "0xabd6e80be7e9682c",
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FlowToken": "0x1654653399040a61"
     },
-    "KlktnNFTTimestamps.": {}
+    "KlktnNFTTimestamps": {}
   },
   "0xabda6627c70c7f52": {
-    "Geni.": {
+    "Geni": {
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "GeniaceAuction.": {
+    "GeniaceAuction": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FlowToken": "0x1654653399040a61",
       "Geni": "0xabda6627c70c7f52",
       "GeniaceNFT": "0xabda6627c70c7f52"
     },
-    "GeniaceMarketplace.": {
+    "GeniaceMarketplace": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "GeniaceNFT.": {
+    "GeniaceNFT": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "GeniacePacks.": {
+    "GeniacePacks": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe",
       "GeniaceAuction": "0xabda6627c70c7f52"
     }
   },
   "0xac84c30925c5be9f": {
-    "Auction.": {
+    "Auction": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "FUSD": "0x3c5959b568896393",
       "Collectible": "0xac84c30925c5be9f",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "Edition": "0xac84c30925c5be9f"
     },
-    "Collectible.": {
+    "Collectible": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "Edition": "0xac84c30925c5be9f"
     },
-    "Edition.": {
+    "Edition": {
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "OpenEdition.": {
+    "OpenEdition": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "FlowToken": "0x1654653399040a61",
       "Collectible": "0xac84c30925c5be9f",
@@ -2539,58 +2539,58 @@
     }
   },
   "0xae3baa0d314e546b": {
-    "Digiyo.": {
+    "Digiyo": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "DigiyoAdminReceiver.": {
+    "DigiyoAdminReceiver": {
       "Digiyo": "0xae3baa0d314e546b",
       "DigiyoSplitCollection": "0xae3baa0d314e546b"
     },
-    "DigiyoSplitCollection.": {
+    "DigiyoSplitCollection": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "Digiyo": "0xae3baa0d314e546b"
     }
   },
   "0xae508a21ec3017f9": {
-    "AvatarArtAuction.": {
+    "AvatarArtAuction": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "AvatarArtNFT": "0xae508a21ec3017f9",
       "AvatarArtTransactionInfo": "0xae508a21ec3017f9"
     },
-    "AvatarArtMarketplace.": {
+    "AvatarArtMarketplace": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "AvatarArtNFT": "0xae508a21ec3017f9",
       "AvatarArtTransactionInfo": "0xae508a21ec3017f9"
     },
-    "AvatarArtNFT.": {
+    "AvatarArtNFT": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "AvatarArtTransactionInfo.": {
+    "AvatarArtTransactionInfo": {
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "BNU.": {
+    "BNU": {
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "ByteNextBridge.": {
+    "ByteNextBridge": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "ByteNextLaunchpad.": {
+    "ByteNextLaunchpad": {
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "ByteNextMedalNFT.": {
+    "ByteNextMedalNFT": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448"
     },
-    "ByteNextStaking.": {
+    "ByteNextStaking": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "BNU": "0xae508a21ec3017f9"
     }
   },
   "0xb063c16cac85dbd1": {
-    "SwapFactory.": {
+    "SwapFactory": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "SwapError": "0xb78ef7afa52ff906",
       "SwapConfig": "0xb78ef7afa52ff906",
@@ -2598,23 +2598,23 @@
     }
   },
   "0xb085d2941bebf9c4": {
-    "CommonFee.": {},
-    "CommonNFT.": {
+    "CommonFee": {},
+    "CommonNFT": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "NFTPlus": "0xb085d2941bebf9c4"
     },
-    "NFTPlus.": {
+    "NFTPlus": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     }
   },
   "0xb1f55a636af51134": {
-    "DimeRoyalties.": {
+    "DimeRoyalties": {
       "DimeCollectibleV3": "0xf5cdaace879e5a79",
       "FungibleToken": "0xf233dcee88fe0abe",
       "FUSD": "0x3c5959b568896393",
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "DimeRoyaltiesV2.": {
+    "DimeRoyaltiesV2": {
       "DimeCollectibleV4": "0xf5cdaace879e5a79",
       "FungibleToken": "0xf233dcee88fe0abe",
       "FUSD": "0x3c5959b568896393",
@@ -2623,7 +2623,7 @@
     }
   },
   "0xb25138dbf45e5801": {
-    "Admin.": {
+    "Admin": {
       "Debug": "0xb25138dbf45e5801",
       "Clock": "0xb25138dbf45e5801",
       "NeoMotorcycle": "0xb25138dbf45e5801",
@@ -2635,18 +2635,18 @@
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "Clock.": {
+    "Clock": {
       "YourThing": "\"../contracts/YouThing.cdc\""
     },
-    "Debug.": {},
-    "NeoAvatar.": {
+    "Debug": {},
+    "NeoAvatar": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe",
       "FlowToken": "0x1654653399040a61",
       "NeoViews": "0xb25138dbf45e5801",
       "MetadataViews": "0x1d7e57aa55817448"
     },
-    "NeoFounder.": {
+    "NeoFounder": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FlowToken": "0x1654653399040a61",
       "FungibleToken": "0xf233dcee88fe0abe",
@@ -2655,7 +2655,7 @@
       "NeoSticker": "0xb25138dbf45e5801",
       "MetadataViews": "0x1d7e57aa55817448"
     },
-    "NeoMember.": {
+    "NeoMember": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe",
       "FlowToken": "0x1654653399040a61",
@@ -2665,20 +2665,20 @@
       "NeoSticker": "0xb25138dbf45e5801",
       "MetadataViews": "0x1d7e57aa55817448"
     },
-    "NeoMotorcycle.": {
+    "NeoMotorcycle": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe",
       "NeoViews": "0xb25138dbf45e5801"
     },
-    "NeoSticker.": {
+    "NeoSticker": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448",
       "NeoViews": "0xb25138dbf45e5801"
     },
-    "NeoViews.": {
+    "NeoViews": {
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "NeoVoucher.": {
+    "NeoVoucher": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe",
       "FlowToken": "0x1654653399040a61",
@@ -2690,53 +2690,53 @@
     }
   },
   "0xb357442e10e629e2": {
-    "IPackNFT.": {
+    "IPackNFT": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "PDS.": {
+    "PDS": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "IPackNFT": "0xb357442e10e629e2"
     }
   },
   "0xb78ef7afa52ff906": {
-    "SwapConfig.": {},
-    "SwapError.": {},
-    "SwapInterfaces.": {
+    "SwapConfig": {},
+    "SwapError": {},
+    "SwapInterfaces": {
       "FungibleToken": "0xf233dcee88fe0abe"
     }
   },
   "0xb8ea91944fd51c43": {
-    "DapperOffers.": {
+    "DapperOffers": {
       "Offers": "0xb8ea91944fd51c43",
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "DapperOffersV2.": {
+    "DapperOffersV2": {
       "OffersV2": "0xb8ea91944fd51c43",
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "Resolver": "0xb8ea91944fd51c43"
     },
-    "Offers.": {
+    "Offers": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "DapperUtilityCoin": "0xead892083b3e2c6c"
     },
-    "OffersV2.": {
+    "OffersV2": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "DapperUtilityCoin": "0xead892083b3e2c6c",
       "MetadataViews": "0x1d7e57aa55817448",
       "Resolver": "0xb8ea91944fd51c43"
     },
-    "Resolver.": {
+    "Resolver": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448",
       "TopShot": "0x0b2a3299cc857e29"
     }
   },
   "0xb9ebc59e88fe0803": {
-    "AlchemyMetadataWrapperMainnetShard1.": {
+    "AlchemyMetadataWrapperMainnetShard1": {
       "Beam": "0x86b4a0010a71cfc3",
       "CNN_NFT": "0x329feb3ab062d289",
       "CaaPass": "0x98c9c2e548b84d31",
@@ -2760,7 +2760,7 @@
       "TuneGO": "0x0d9bc5af3fc0c2e3",
       "Vouchers": "0x444f5ea22c6ea12c"
     },
-    "AlchemyMetadataWrapperMainnetShard2.": {
+    "AlchemyMetadataWrapperMainnetShard2": {
       "AllDay": "0xe4cf4bdc1751c65d",
       "Andbox_NFT": "0x329feb3ab062d289",
       "BarterYardClubWerewolf": "0x28abb9f291cadaf2",
@@ -2783,7 +2783,7 @@
       "TheFabricantMysteryBox_FF1": "0xa0cbe021821c0965",
       "ZeedzINO": "0x62b3063fbe672fc8"
     },
-    "AlchemyMetadataWrapperMainnetShard3.": {
+    "AlchemyMetadataWrapperMainnetShard3": {
       "ARTIFACT": "0x24de869c5e40b2eb",
       "ARTIFACTPack": "0x24de869c5e40b2eb",
       "AmericanAirlines_NFT": "0x329feb3ab062d289",
@@ -2808,7 +2808,7 @@
       "YahooCollectible": "0x758252ab932a3416",
       "YahooPartnersCollectible": "0x758252ab932a3416"
     },
-    "AlchemyMetadataWrapperMainnetShard4.": {
+    "AlchemyMetadataWrapperMainnetShard4": {
       "AADigital": "0x39eeb4ee6f30fc3f",
       "DooverseItems": "0x66ad29c7d7465437",
       "Evolution": "0xf4264ac8f3256818",
@@ -2832,34 +2832,34 @@
     }
   },
   "0xbae9e93397796df2": {
-    "CheezeMarket.": {
+    "CheezeMarket": {
       "CheezeNFT": "0xbae9e93397796df2",
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FUSD": "0x3c5959b568896393"
     },
-    "CheezeNFT.": {
+    "CheezeNFT": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     }
   },
   "0xbc8590ba7edce879": {
-    "DisruptArt.": {
+    "DisruptArt": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "DisruptArtAuction.": {
+    "DisruptArtAuction": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "DisruptArt": "0xbc8590ba7edce879",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "DisruptArtMarketplace": "0xbc8590ba7edce879"
     },
-    "DisruptArtMarketplace.": {
+    "DisruptArtMarketplace": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "DisruptArt": "0xbc8590ba7edce879"
     }
   },
   "0xc0bcca6fd0fe81b0": {
-    "DateUtils.": {},
-    "DayNFT.": {
+    "DateUtils": {},
+    "DayNFT": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448",
       "DateUtils": "0xc0bcca6fd0fe81b0",
@@ -2868,18 +2868,18 @@
     }
   },
   "0xc1e4f4f4c4257510": {
-    "Market.": {
+    "Market": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "DapperUtilityCoin": "0xead892083b3e2c6c",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "TopShot": "0x0b2a3299cc857e29"
     },
-    "TopShotMarketV2.": {
+    "TopShotMarketV2": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "TopShot": "0x0b2a3299cc857e29"
     },
-    "TopShotMarketV3.": {
+    "TopShotMarketV3": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "TopShot": "0x0b2a3299cc857e29",
@@ -2889,109 +2889,109 @@
     }
   },
   "0xc38aea683c0c4d38": {
-    "Eternal.": {
+    "Eternal": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "EternalShardedCollection.": {
+    "EternalShardedCollection": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "Eternal": "0xc38aea683c0c4d38"
     },
-    "InfluencerRegistry.": {
+    "InfluencerRegistry": {
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "Market.": {
+    "Market": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "Eternal": "0xc38aea683c0c4d38",
       "InfluencerRegistry": "0xc38aea683c0c4d38"
     },
-    "ZelosAccountingToken.": {
+    "ZelosAccountingToken": {
       "FungibleToken": "0xf233dcee88fe0abe"
     }
   },
   "0xc6c77b9f5c7a378f": {
-    "FlowSwapPair.": {
+    "FlowSwapPair": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "FlowToken": "0x1654653399040a61",
       "TeleportedTetherToken": "0xcfdd90d4a00f7b5b"
     }
   },
   "0xc8c340cebd11f690": {
-    "DarkCountry.": {
+    "DarkCountry": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "DarkCountryStaking": "0xc8c340cebd11f690"
     },
-    "DarkCountryMarket.": {
+    "DarkCountryMarket": {
       "FlowToken": "0x1654653399040a61",
       "DarkCountry": "0xc8c340cebd11f690",
       "DarkCountryStaking": "0xc8c340cebd11f690",
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "DarkCountryStaking.": {},
-    "SdmToken.": {
+    "DarkCountryStaking": {},
+    "SdmToken": {
       "FungibleToken": "0xf233dcee88fe0abe"
     }
   },
   "0xcd946ef9b13804c6": {
-    "DisruptArt.": {
+    "DisruptArt": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "DisruptArtAuction.": {
+    "DisruptArtAuction": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "DisruptArt": "0xcd946ef9b13804c6",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "DisruptArtMarketplace": "0xcd946ef9b13804c6"
     },
-    "DisruptArtAuctionFlow.": {
+    "DisruptArtAuctionFlow": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "DisruptArt": "0xcd946ef9b13804c6",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "DisruptArtMarketplaceFlow": "0xcd946ef9b13804c6",
       "DisruptArtAuction": "0xcd946ef9b13804c6"
     },
-    "DisruptArtMarketplace.": {
+    "DisruptArtMarketplace": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "DisruptArt": "0xcd946ef9b13804c6"
     },
-    "DisruptArtMarketplaceFlow.": {
+    "DisruptArtMarketplaceFlow": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "DisruptArt": "0xcd946ef9b13804c6"
     }
   },
   "0xcec15c814971c1dc": {
-    "OracleConfig.": {},
-    "OracleInterface.": {}
+    "OracleConfig": {},
+    "OracleInterface": {}
   },
   "0xcecd8c81c050eef1": {
-    "TheMasterMarketContract.": {
+    "TheMasterMarketContract": {
       "TheMasterPieceContract": "0xcecd8c81c050eef1",
       "TheMasterPixelContract": "0xcecd8c81c050eef1",
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "TheMasterPieceContract.": {},
-    "TheMasterPixelContract.": {
+    "TheMasterPieceContract": {},
+    "TheMasterPixelContract": {
       "TheMasterPieceContract": "0xcecd8c81c050eef1"
     }
   },
   "0xcfdd90d4a00f7b5b": {
-    "TeleportedTetherToken.": {
+    "TeleportedTetherToken": {
       "FungibleToken": "0xf233dcee88fe0abe"
     }
   },
   "0xd01e482eb680ec9f": {
-    "REVV.": {
+    "REVV": {
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "REVVVaultAccess.": {
+    "REVVVaultAccess": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "REVV": "0xd01e482eb680ec9f"
     }
   },
   "0xd136d89c8958d52a": {
-    "Admin.": {
+    "Admin": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "FUSD": "0x3c5959b568896393",
       "NonFungibleToken": "0x1d7e57aa55817448",
@@ -3000,11 +3000,11 @@
       "Debug": "0xd136d89c8958d52a",
       "Clock": "0xd136d89c8958d52a"
     },
-    "Clock.": {
+    "Clock": {
       "YourThing": "\"../contracts/YouThing.cdc\""
     },
-    "Debug.": {},
-    "FIND.": {
+    "Debug": {},
+    "FIND": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "FUSD": "0x3c5959b568896393",
       "NonFungibleToken": "0x1d7e57aa55817448",
@@ -3014,15 +3014,15 @@
     }
   },
   "0xd1eaa1286d4c85a2": {
-    "ArleePartner.": {
+    "ArleePartner": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448"
     },
-    "ArleeScene.": {
+    "ArleeScene": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448"
     },
-    "Arlequin.": {
+    "Arlequin": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448",
@@ -3032,68 +3032,68 @@
     }
   },
   "0xd3df824bf81910a4": {
-    "CryptoPiggo.": {
+    "CryptoPiggo": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448"
     },
-    "CryptoPiggoPotion.": {
+    "CryptoPiggoPotion": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448"
     },
-    "CryptoPiggoV2.": {
+    "CryptoPiggoV2": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe"
     }
   },
   "0xd4ad4740ee426334": {
-    "Moments.": {
+    "Moments": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     }
   },
   "0xd527bd7a74847cc7": {
-    "DugoutDawgzNFT.": {
+    "DugoutDawgzNFT": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448"
     },
-    "DugoutDawgzNFTPrimarySaleMinter.": {
+    "DugoutDawgzNFTPrimarySaleMinter": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "GaiaPrimarySale": "0x01ddf82c652e36ef",
       "DugoutDawgzNFT": "0xd527bd7a74847cc7"
     }
   },
   "0xd756450f386fb4ac": {
-    "Metaverse.": {
+    "Metaverse": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "OzoneToken.": {
+    "OzoneToken": {
       "FungibleToken": "0xf233dcee88fe0abe"
     }
   },
   "0xd796ff17107bbff6": {
-    "Art.": {
+    "Art": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe",
       "MetadataViews": "0x1d7e57aa55817448",
       "Content": "0xd796ff17107bbff6"
     },
-    "Auction.": {
+    "Auction": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "FlowToken": "0x1654653399040a61",
       "Art": "0xd796ff17107bbff6",
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "Content.": {},
-    "Marketplace.": {
+    "Content": {},
+    "Marketplace": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "FlowToken": "0x1654653399040a61",
       "Art": "0xd796ff17107bbff6",
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "Profile.": {
+    "Profile": {
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "Versus.": {
+    "Versus": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "Art": "0xd796ff17107bbff6",
@@ -3103,43 +3103,43 @@
     }
   },
   "0xdcef2dcb63f28dee": {
-    "ElvnFeeTreasury.": {
+    "ElvnFeeTreasury": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "Elvn": "0x6292b23b3eb3f999"
     },
-    "ElvnPackPurchaseTreasury.": {
+    "ElvnPackPurchaseTreasury": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "FUSD": "0x3c5959b568896393",
       "Elvn": "0x6292b23b3eb3f999"
     },
-    "Pack.": {
+    "Pack": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "Elvn": "0x6292b23b3eb3f999",
       "Moments": "0x6292b23b3eb3f999"
     },
-    "SprtNFTStorefront.": {
+    "SprtNFTStorefront": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "ElvnFeeTreasury": "0xdcef2dcb63f28dee"
     }
   },
   "0xdfb13511ea695f67": {
-    "mangguo.": {
+    "mangguo": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448"
     }
   },
   "0xdfc74d9d561374c0": {
-    "GoatedGoatsVouchers.": {
+    "GoatedGoatsVouchers": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "TraitPacksVouchers.": {
+    "TraitPacksVouchers": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "VouchersSaleManager.": {
+    "VouchersSaleManager": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe",
       "FlowToken": "0x1654653399040a61",
@@ -3147,13 +3147,13 @@
       "TraitPacksVouchers": "0xdfc74d9d561374c0",
       "VouchersSaleManagerHelper": "0xdfc74d9d561374c0"
     },
-    "VouchersSaleManagerHelper.": {}
+    "VouchersSaleManagerHelper": {}
   },
   "0xe0466ceef6735d35": {
-    "LibraryPass.": {
+    "LibraryPass": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "PublishedNFTStorefront.": {
+    "PublishedNFTStorefront": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "LibraryPass": "0xe0466ceef6735d35",
@@ -3161,18 +3161,18 @@
     }
   },
   "0xe1834889cb45b22f": {
-    "DCAPermission.": {
+    "DCAPermission": {
       "DigitalContentAsset": "0xe1834889cb45b22f"
     },
-    "DigitalContentAsset.": {
+    "DigitalContentAsset": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     }
   },
   "0xe1ddcd28b27e095e": {
-    "LibraryPass.": {
+    "LibraryPass": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "PublishedNFTStorefront.": {
+    "PublishedNFTStorefront": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "LibraryPass": "0xe1ddcd28b27e095e",
@@ -3180,14 +3180,14 @@
     }
   },
   "0xe2a89587100c6096": {
-    "Ashes.": {
+    "Ashes": {
       "TopShot": "0x0b2a3299cc857e29"
     },
-    "AshesMessageBoard.": {
+    "AshesMessageBoard": {
       "Ashes": "0xe2a89587100c6096",
       "TopShot": "0x0b2a3299cc857e29"
     },
-    "AshesV2.": {
+    "AshesV2": {
       "TopShot": "0x0b2a3299cc857e29",
       "Ashes": "0xe2a89587100c6096",
       "UFC_NFT": "0x329feb3ab062d289",
@@ -3195,123 +3195,123 @@
     }
   },
   "0xe2e1689b53e92a82": {
-    "Anique.": {
+    "Anique": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "AniqueCredit.": {
+    "AniqueCredit": {
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "AniqueMarket.": {
+    "AniqueMarket": {
       "Anique": "0xe2e1689b53e92a82",
       "AniqueCredit": "0xe2e1689b53e92a82"
     },
-    "AttackOnTitanLegacy.": {
+    "AttackOnTitanLegacy": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "Anique": "0xe2e1689b53e92a82"
     }
   },
   "0xe3e282271a7c714e": {
-    "sFlowStakingManager.": {
+    "sFlowStakingManager": {
       "sFlowToken": "0xe3e282271a7c714e",
       "FungibleToken": "0xf233dcee88fe0abe",
       "FlowToken": "0x1654653399040a61",
       "FlowStakingCollection": "0x8d0e87b65159ae63",
       "FlowIDTableStaking": "0x8624b52f9ddcd04a"
     },
-    "sFlowStakingManagerV2.": {
+    "sFlowStakingManagerV2": {
       "sFlowToken": "0xe3e282271a7c714e",
       "FungibleToken": "0xf233dcee88fe0abe",
       "FlowToken": "0x1654653399040a61",
       "FlowStakingCollection": "0x8d0e87b65159ae63",
       "FlowIDTableStaking": "0x8624b52f9ddcd04a"
     },
-    "sFlowStakingManagerV3.": {
+    "sFlowStakingManagerV3": {
       "sFlowToken": "0xe3e282271a7c714e",
       "FungibleToken": "0xf233dcee88fe0abe",
       "FlowToken": "0x1654653399040a61",
       "FlowStakingCollection": "0x8d0e87b65159ae63",
       "FlowIDTableStaking": "0x8624b52f9ddcd04a"
     },
-    "sFlowToken.": {
+    "sFlowToken": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "FlowToken": "0x1654653399040a61",
       "FlowStakingCollection": "0x8d0e87b65159ae63"
     }
   },
   "0xe467b9dd11fa00df": {
-    "FlowContractAudits.": {},
-    "FlowServiceAccount.": {
+    "FlowContractAudits": {},
+    "FlowServiceAccount": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "FlowToken": "0x1654653399040a61",
       "FlowFees": "0xf919ee77447b7497",
       "FlowStorageFees": "0xe467b9dd11fa00df"
     },
-    "FlowStorageFees.": {
+    "FlowStorageFees": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "FlowToken": "0x1654653399040a61"
     }
   },
   "0xe4cf4bdc1751c65d": {
-    "AllDay.": {
+    "AllDay": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "PackNFT.": {
+    "PackNFT": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "IPackNFT": "0x44c6a6fd2281b6cc"
     }
   },
   "0xe703f7fee6400754": {
-    "ArtworkMetadata.": {},
-    "Everbloom.": {
+    "ArtworkMetadata": {},
+    "Everbloom": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "ArtworkMetadata": "0xe703f7fee6400754"
     },
-    "Everbloom2.": {
+    "Everbloom2": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448",
       "EverbloomMetadata": "0xe703f7fee6400754"
     },
-    "EverbloomMetadata.": {
+    "EverbloomMetadata": {
       "MetadataViews": "0x1d7e57aa55817448"
     }
   },
   "0xe72e480925b39e17": {
-    "AvatarArtAuction.": {
+    "AvatarArtAuction": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "AvatarArtNFT": "0xe72e480925b39e17",
       "AvatarArtTransactionInfo": "0xe72e480925b39e17"
     },
-    "AvatarArtMarketplace.": {
+    "AvatarArtMarketplace": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "AvatarArtNFT": "0xe72e480925b39e17",
       "AvatarArtTransactionInfo": "0xe72e480925b39e17"
     },
-    "AvatarArtNFT.": {
+    "AvatarArtNFT": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "AvatarArtTransactionInfo.": {
+    "AvatarArtTransactionInfo": {
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "BNU.": {
+    "BNU": {
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "ByteNextLaunchpad.": {
+    "ByteNextLaunchpad": {
       "FungibleToken": "0xf233dcee88fe0abe"
     }
   },
   "0xe8aeee7a48e71d78": {
-    "MadbopContract.": {
+    "MadbopContract": {
       "MadbopNFTs": "0xe8aeee7a48e71d78",
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "MadbopNFTs.": {
+    "MadbopNFTs": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     }
   },
   "0xeb8cb4c3157d5dac": {
-    "AlchemyMetadataWrapperMainnet.": {
+    "AlchemyMetadataWrapperMainnet": {
       "AADigital": "0x39eeb4ee6f30fc3f",
       "ARTIFACT": "0x24de869c5e40b2eb",
       "ARTIFACTPack": "0x24de869c5e40b2eb",
@@ -3397,7 +3397,7 @@
       "YahooPartnersCollectible": "0x758252ab932a3416",
       "ZeedzINO": "0x62b3063fbe672fc8"
     },
-    "AlchemyMetadataWrapperMainnetShard1.": {
+    "AlchemyMetadataWrapperMainnetShard1": {
       "Beam": "0x86b4a0010a71cfc3",
       "CNN_NFT": "0x329feb3ab062d289",
       "CaaPass": "0x98c9c2e548b84d31",
@@ -3421,7 +3421,7 @@
       "TuneGO": "0x0d9bc5af3fc0c2e3",
       "Vouchers": "0x444f5ea22c6ea12c"
     },
-    "AlchemyMetadataWrapperMainnetShard2.": {
+    "AlchemyMetadataWrapperMainnetShard2": {
       "AllDay": "0xe4cf4bdc1751c65d",
       "Andbox_NFT": "0x329feb3ab062d289",
       "BarterYardClubWerewolf": "0x28abb9f291cadaf2",
@@ -3444,7 +3444,7 @@
       "TheFabricantMysteryBox_FF1": "0xa0cbe021821c0965",
       "ZeedzINO": "0x62b3063fbe672fc8"
     },
-    "AlchemyMetadataWrapperMainnetShard3.": {
+    "AlchemyMetadataWrapperMainnetShard3": {
       "ARTIFACT": "0x24de869c5e40b2eb",
       "ARTIFACTPack": "0x24de869c5e40b2eb",
       "AmericanAirlines_NFT": "0x329feb3ab062d289",
@@ -3469,7 +3469,7 @@
       "YahooCollectible": "0x758252ab932a3416",
       "YahooPartnersCollectible": "0x758252ab932a3416"
     },
-    "AlchemyMetadataWrapperMainnetShard4.": {
+    "AlchemyMetadataWrapperMainnetShard4": {
       "AADigital": "0x39eeb4ee6f30fc3f",
       "DooverseItems": "0x66ad29c7d7465437",
       "Evolution": "0xf4264ac8f3256818",
@@ -3493,17 +3493,17 @@
     }
   },
   "0xecfad18ba9582d4f": {
-    "GameEscrowMarker.": {
+    "GameEscrowMarker": {
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "JoyrideAccounts.": {
+    "JoyrideAccounts": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "JoyrideMultiToken": "0xecfad18ba9582d4f"
     },
-    "JoyrideMultiToken.": {
+    "JoyrideMultiToken": {
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "JoyridePayments.": {
+    "JoyridePayments": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "JoyrideMultiToken": "0xecfad18ba9582d4f",
       "JoyrideAccounts": "0xecfad18ba9582d4f",
@@ -3511,116 +3511,116 @@
     }
   },
   "0xed398881d9bf40fb": {
-    "CricketMoments.": {
+    "CricketMoments": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "CricketMomentsShardedCollection.": {
+    "CricketMomentsShardedCollection": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "CricketMoments": "0xed398881d9bf40fb"
     },
-    "FazeUtilityCoin.": {
+    "FazeUtilityCoin": {
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "NFTStorefront.": {
+    "NFTStorefront": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448"
     }
   },
   "0xeee6bdee2b2bdfc8": {
-    "Basketballs.": {
+    "Basketballs": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "BasketballsMarket.": {
+    "BasketballsMarket": {
       "Basketballs": "0xeee6bdee2b2bdfc8",
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "NFTStorefrontV2.": {
+    "NFTStorefrontV2": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448"
     }
   },
   "0xef4d8b44dd7f7ef6": {
-    "TopShotShardedCollection.": {
+    "TopShotShardedCollection": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "TopShot": "0x0b2a3299cc857e29"
     }
   },
   "0xf087790fe77461e4": {
-    "OlympicPinShardedCollection.": {
+    "OlympicPinShardedCollection": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "OlympicPin": "0x1d007eed492fdbbe"
     }
   },
   "0xf20df769e658c257": {
-    "LicensedNFT.": {},
-    "MatrixWorldAssetsNFT.": {
+    "LicensedNFT": {},
+    "MatrixWorldAssetsNFT": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "LicensedNFT": "0xf20df769e658c257"
     }
   },
   "0xf233dcee88fe0abe": {
-    "FungibleToken.": {}
+    "FungibleToken": {}
   },
   "0xf3cc54f4d91c2f6c": {
-    "Kicks.": {
+    "Kicks": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448",
       "NFTLX": "0xf3cc54f4d91c2f6c"
     },
-    "NFTLX.": {
+    "NFTLX": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     }
   },
   "0xf4264ac8f3256818": {
-    "Evolution.": {
+    "Evolution": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     }
   },
   "0xf448b8731913195c": {
-    "ListenAuction.": {
+    "ListenAuction": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "ListenNFT": "0xf448b8731913195c",
       "ListenUSD": "0xf448b8731913195c"
     },
-    "ListenMarketplace.": {
+    "ListenMarketplace": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "ListenNFT": "0xf448b8731913195c",
       "ListenUSD": "0xf448b8731913195c"
     },
-    "ListenNFT.": {
+    "ListenNFT": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "ListenUSD.": {
+    "ListenUSD": {
       "FungibleToken": "0xf233dcee88fe0abe"
     }
   },
   "0xf5b0eb433389ac3f": {
-    "Auction.": {
+    "Auction": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "FUSD": "0x3c5959b568896393",
       "Collectible": "0xf5b0eb433389ac3f",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "Edition": "0xf5b0eb433389ac3f"
     },
-    "AuctionV2.": {
+    "AuctionV2": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "FUSD": "0x3c5959b568896393",
       "Collectible": "0xf5b0eb433389ac3f",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "Edition": "0xf5b0eb433389ac3f"
     },
-    "AuthChecker.": {},
-    "Collectible.": {
+    "AuthChecker": {},
+    "Collectible": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "Edition": "0xf5b0eb433389ac3f"
     },
-    "Edition.": {
+    "Edition": {
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "MarketPlace.": {
+    "MarketPlace": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "FlowToken": "0x1654653399040a61",
       "Collectible": "0xf5b0eb433389ac3f",
@@ -3628,14 +3628,14 @@
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FUSD": "0x3c5959b568896393"
     },
-    "OpenEdition.": {
+    "OpenEdition": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "FlowToken": "0x1654653399040a61",
       "Collectible": "0xf5b0eb433389ac3f",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "Edition": "0xf5b0eb433389ac3f"
     },
-    "OpenEditionV2.": {
+    "OpenEditionV2": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "FlowToken": "0x1654653399040a61",
       "Collectible": "0xf5b0eb433389ac3f",
@@ -3643,7 +3643,7 @@
       "Edition": "0xf5b0eb433389ac3f",
       "FUSD": "0x3c5959b568896393"
     },
-    "OpenEditionV3.": {
+    "OpenEditionV3": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "FlowToken": "0x1654653399040a61",
       "Collectible": "0xf5b0eb433389ac3f",
@@ -3653,20 +3653,20 @@
     }
   },
   "0xf5cdaace879e5a79": {
-    "DimeCollectible.": {
+    "DimeCollectible": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "DimeCollectibleV2.": {
+    "DimeCollectibleV2": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "FUSD": "0x3c5959b568896393",
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "DimeCollectibleV3.": {
+    "DimeCollectibleV3": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "FUSD": "0x3c5959b568896393",
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "DimeCollectibleV4.": {
+    "DimeCollectibleV4": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "FUSD": "0x3c5959b568896393",
       "MetadataViews": "0x1d7e57aa55817448",
@@ -3674,8 +3674,8 @@
     }
   },
   "0xf61e40c19db2a9e2": {
-    "EndModel.": {},
-    "HaikuNFT.": {
+    "EndModel": {},
+    "HaikuNFT": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448",
       "FlowToken": "0x1654653399040a61",
@@ -3686,93 +3686,93 @@
       "SpaceModel": "0xf61e40c19db2a9e2",
       "EndModel": "0xf61e40c19db2a9e2"
     },
-    "Model.": {},
-    "SpaceModel.": {},
-    "Words.": {}
+    "Model": {},
+    "SpaceModel": {},
+    "Words": {}
   },
   "0xf6cb854714273458": {
-    "GoatedGoatsVouchers.": {
+    "GoatedGoatsVouchers": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "GovernanceToken.": {
+    "GovernanceToken": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "MusicPeaksVideoNFT.": {
+    "MusicPeaksVideoNFT": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448"
     },
-    "Peakon.": {
+    "Peakon": {
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "RightsHolderSplits.": {
+    "RightsHolderSplits": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "FlowToken": "0x1654653399040a61",
       "Peakon": "0xf6cb854714273458"
     },
-    "RockPeaksClipCard.": {
+    "RockPeaksClipCard": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     }
   },
   "0xf6fcbef550d97aa5": {
-    "Mynft.": {
+    "Mynft": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     }
   },
   "0xf919ee77447b7497": {
-    "FlowFees.": {
+    "FlowFees": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "FlowToken": "0x1654653399040a61"
     }
   },
   "0xf929c17055352fac": {
-    "RICKY.": {
+    "RICKY": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448"
     }
   },
   "0xfc354c9bb513e702": {
-    "ListenAuction.": {
+    "ListenAuction": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "ListenNFT": "0xfc354c9bb513e702",
       "ListenUSD": "0xfc354c9bb513e702"
     },
-    "ListenMarketplace.": {
+    "ListenMarketplace": {
       "FungibleToken": "0xf233dcee88fe0abe",
       "NonFungibleToken": "0x1d7e57aa55817448",
       "ListenNFT": "0xfc354c9bb513e702",
       "ListenUSD": "0xfc354c9bb513e702"
     },
-    "ListenNFT.": {
+    "ListenNFT": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     },
-    "ListenUSD.": {
+    "ListenUSD": {
       "FungibleToken": "0xf233dcee88fe0abe"
     }
   },
   "0xfc91de5e6566cc7c": {
-    "FBRC.": {
+    "FBRC": {
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "GarmentNFT.": {
+    "GarmentNFT": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe",
       "FBRC": "0xfc91de5e6566cc7c"
     },
-    "ItemNFT.": {
+    "ItemNFT": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe",
       "GarmentNFT": "0xfc91de5e6566cc7c",
       "MaterialNFT": "0xfc91de5e6566cc7c",
       "FBRC": "0xfc91de5e6566cc7c"
     },
-    "MaterialNFT.": {
+    "MaterialNFT": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe",
       "FBRC": "0xfc91de5e6566cc7c"
     },
-    "MintTransferClaim.": {
+    "MintTransferClaim": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "FungibleToken": "0xf233dcee88fe0abe",
       "GarmentNFT": "0xfc91de5e6566cc7c",
@@ -3782,16 +3782,16 @@
     }
   },
   "0xfef48806337aabf1": {
-    "TicalUniverse.": {
+    "TicalUniverse": {
       "NonFungibleToken": "0x1d7e57aa55817448",
       "MetadataViews": "0x1d7e57aa55817448"
     }
   },
   "0xff5393e7c38b1512": {
-    "Melos.": {
+    "Melos": {
       "FungibleToken": "0xf233dcee88fe0abe"
     },
-    "MusicBlock.": {
+    "MusicBlock": {
       "NonFungibleToken": "0x1d7e57aa55817448"
     }
   }
