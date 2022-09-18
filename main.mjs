@@ -169,8 +169,9 @@ const getAccounts = (dataType = "contracts") => {
     const contractData = files.reduce((acc, subPath) => {
       const path = `./cadence/${key}/${subPath}`;
       const content = fs.readFileSync(path).toString();
-      const contractName = subPath.slice(0, -3);
-      acc[contractName] = dataType === "imports" ? extractImports(content) : content
+      const contractName = subPath.slice(0, -4);
+      acc[contractName] =
+        dataType === "imports" ? extractImports(content) : content;
       return acc;
     }, {});
     acc[key] = contractData;
@@ -178,17 +179,27 @@ const getAccounts = (dataType = "contracts") => {
   }, {});
 };
 
-const addImports = async ()=>{
-  const data = readJSON("./imports.json");
-
-}
+const addContracts = async () => {
+  const accounts = fs.readdirSync("./cadence");
+  for (let i = 0; i < accounts.length; i++) {
+    const account = accounts[i];
+    const files = fs.readdirSync(`./cadence/${account}`);
+    for (let j = 0; j < files.length; j++) {
+      const subPath = files[j];
+      const path = `./cadence/${account}/${subPath}`;
+      const content = fs.readFileSync(path).toString();
+      const contractName = subPath.slice(0, -4);
+      console.log(path, contractName);
+    }
+  }
+};
 
 (async () => {
   await setup();
 
   const data = getAccounts("imports");
   writeJSON("./imports.json", data)
-
+  // await addContracts()
   console.log("done");
   /*  flow().then(() => {
     console.log("done");
