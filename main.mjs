@@ -179,27 +179,109 @@ const getAccounts = (dataType = "contracts") => {
   }, {});
 };
 
+const saveProgress = (address, name) => {
+  const data = readJSON("./processed.json");
+  if (!data[address]) {
+    data[address] = {};
+  }
+  data[address][name] = true;
+  writeJSON("./processed.json", data);
+  console.log(`${address} on ${name} was stored to database`);
+};
+
+const padAddress = (address) => {
+  const [prefix, value] = address.split("x");
+  return `${prefix}x${value.padStart(16, 0)}`;
+};
+
 const addContracts = async () => {
-  const accounts = fs.readdirSync("./cadence");
-  for (let i = 0; i < accounts.length; i++) {
-    const account = accounts[i];
-    const files = fs.readdirSync(`./cadence/${account}`);
+  const addresses = fs.readdirSync("./cadence");
+  const limit = addresses.length;
+  for (let i = 0; i < limit; i++) {
+    const address = addresses[i];
+    const files = fs.readdirSync(`./cadence/${address}`);
+    const data = [];
     for (let j = 0; j < files.length; j++) {
       const subPath = files[j];
-      const path = `./cadence/${account}/${subPath}`;
-      const content = fs.readFileSync(path).toString();
-      const contractName = subPath.slice(0, -4);
-      console.log(path, contractName);
+      const path = `./cadence/${address}/${subPath}`;
+      const code = fs.readFileSync(path).toString();
+      const name = subPath.slice(0, -4);
+      data.push({
+        name,
+        code,
+        address: padAddress(address),
+      });
+    }
+
+    await prisma.contract.createMany({ data });
+    console.log(`Processed contracts at ${address}`);
+  }
+};
+
+const connectImports = async () => {
+  const processed = readJSON("./processed.json");
+
+  const importList = readJSON("./imports.json");
+  const addresses = Object.keys(importList);
+  for (let i = 0; i < addresses.length; i++) {
+    const key = addresses[i];
+    const contractList = Object.keys(importList[key]);
+    for (let j = 0; j < contractList.length; j++) {
+      const contract = contractList[j];
+      if (processed[key] && processed[key][contract]) {
+        console.log(`PROCESSED: ${key} - ${contract}`);
+        continue;
+      }
+      const imports = importList[key][contract];
+      const connectedList = Object.keys(imports)
+        .filter((name) => {
+          return imports[name].startsWith("0x");
+        })
+        .map((name) => {
+          return {
+            name_address: {
+              address: padAddress(imports[name]),
+              name,
+            },
+          };
+        });
+      console.log(`${i} - Processing ${contract} on ${key}`, connectedList);
+      await prisma.contract.update({
+        where: {
+          name_address: {
+            name: contract,
+            address: padAddress(key),
+          },
+        },
+        data: {
+          imports: {
+            connect: connectedList,
+          },
+        },
+      });
+      console.log(`Added imports for ${contract} on ${key}`);
+
+      saveProgress(key, contract);
     }
   }
+  console.log("all imports are processed");
+};
+
+const addContractsFromAddress = async (accountAddress) => {
+  const padded = padAddress(accountAddress);
+  const account = await getAccount(accountAddress);
+  console.log({ account });
+
+  const names = Object.keys(account);
 };
 
 (async () => {
   await setup();
-
-  const data = getAccounts("imports");
-  writeJSON("./imports.json", data)
+  // await addContractsFromAddress("0x49a7cda3a1eecc29");
+  // const data = getAccounts("imports");
+  // writeJSON("./imports.json", data)
   // await addContracts()
+  await connectImports();
   console.log("done");
   /*  flow().then(() => {
     console.log("done");
