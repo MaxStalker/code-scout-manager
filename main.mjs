@@ -3,14 +3,14 @@ import fetch from "node-fetch";
 import * as fcl from "@onflow/fcl";
 import { extractImports } from "@onflow/flow-cadut";
 import { readJSON, writeJSON } from "./json.mjs";
-
+import fs from "fs";
 
 const prisma = new PrismaClient();
 
-const setup = async()=>{
+const setup = async () => {
   fcl.config().put("accessNode.api", "https://rest-mainnet.onflow.org");
-  await prisma.$connect()
-}
+  await prisma.$connect();
+};
 
 const main = async () => {
   const contracts = await prisma.contract.findMany({});
@@ -119,10 +119,78 @@ const flow = async () => {
   }*/
 };
 
+const getAccount = async (address) => {
+  const url = `https://rest-mainnet.onflow.org/v1/accounts/${address}?expand=contracts`;
+  const data = await fetch(url).then((res) => res.json());
+  const { contracts } = data;
+  const result = Object.keys(contracts).reduce((acc, key) => {
+    const contract = Buffer.from(contracts[key], "base64").toString();
+    acc[key] = contract;
+    return acc;
+  }, {});
+  return result;
+};
 
-(async ()=>{
+const collectContracts = async () => {
+  const data = readJSON("./contracts.json");
+  const duped = data.reduce((acc, item) => {
+    acc.push(item.address);
+    return acc;
+  }, []);
+  const list = Array.from(new Set(duped));
+  console.log(duped.length, list.length);
+
+  for (let i = 0; i < list.length; i++) {
+    const address = list[i];
+    const contracts = await getAccount(address);
+
+    const dir = `./cadence/${address}`;
+    if (!fs.existsSync(dir)) {
+      fs.mkdirSync(dir, { recursive: true });
+    }
+
+    const contractList = Object.keys(contracts);
+    const plural = contractList.length > 1 ? "s" : "";
+    console.log(
+      `Saving ${contractList.length} contract${plural} for ${address}`
+    );
+    contractList.forEach((key) => {
+      const contract = contracts[key];
+      fs.writeFileSync(`./cadence/${address}/${key}.cdc`, contract);
+    });
+  }
+};
+
+const getAccounts = (dataType = "contracts") => {
+  const accounts = fs.readdirSync("./cadence");
+  return accounts.reduce((acc, key) => {
+    const path = `./cadence/${key}`;
+    const files = fs.readdirSync(path);
+    const contractData = files.reduce((acc, subPath) => {
+      const path = `./cadence/${key}/${subPath}`;
+      const content = fs.readFileSync(path).toString();
+      const contractName = subPath.slice(0, -3);
+      acc[contractName] = dataType === "imports" ? extractImports(content) : content
+      return acc;
+    }, {});
+    acc[key] = contractData;
+    return acc;
+  }, {});
+};
+
+const addImports = async ()=>{
+  const data = readJSON("./imports.json");
+
+}
+
+(async () => {
   await setup();
-  flow().then(() => {
+
+  const data = getAccounts("imports");
+  writeJSON("./imports.json", data)
+
+  console.log("done");
+  /*  flow().then(() => {
     console.log("done");
-  });
-})()
+  });*/
+})();
