@@ -229,7 +229,7 @@ const connectImports = async () => {
     for (let j = 0; j < contractList.length; j++) {
       const contract = contractList[j];
       if (processed[key] && processed[key][contract]) {
-        console.log(`PROCESSED: ${key} - ${contract}`);
+        console.log(`${i}/${j} - PROCESSED: ${key} - ${contract}`);
         continue;
       }
       const imports = importList[key][contract];
@@ -267,20 +267,27 @@ const connectImports = async () => {
   console.log("all imports are processed");
 };
 
-const addContractsFromAddress = async (accountAddress) => {
-  const padded = padAddress(accountAddress);
-  const account = await getAccount(accountAddress);
-  console.log({ account });
+const addContractsFromAddress = async (address) => {
+  const account = await getAccount(address);
 
-  const names = Object.keys(account);
+  const data = Object.keys(account).map((name)=>{
+    return {
+      name,
+      code: account[name],
+      address: padAddress(address),
+    }
+  })
+
+  await prisma.contract.createMany({ data });
+  console.log(`Added ${data.length} contracts for ${address}`);
 };
 
 (async () => {
   await setup();
-  // await addContractsFromAddress("0x49a7cda3a1eecc29");
   // const data = getAccounts("imports");
   // writeJSON("./imports.json", data)
   // await addContracts()
+  // await addContractsFromAddress("0x2ba17360b76f0143");
   await connectImports();
   console.log("done");
   /*  flow().then(() => {
