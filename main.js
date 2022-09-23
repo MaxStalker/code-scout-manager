@@ -18,8 +18,9 @@ fcl.config().put("accessNode.api", "https://rest-mainnet.onflow.org");
     console.log({data})
 
     console.log('nice')
-    const locations = await prisma.location.findMany();
-    console.log({ locations });
+
+    const locations = await prisma.contract.findMany();
+    console.log(locations.length);
 
 
 })()

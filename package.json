@@ -10,9 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@onflow/cadence-parser": "^0.26.0",
     "@onflow/fcl": "^1.2.1",
     "@onflow/flow-cadut": "^0.2.0-alpha.9",
     "@prisma/client": "^4.3.1",
+    "cadence-parser": "^1.0.1",
     "esm": "^3.2.25",
     "flow-cadut": "^0.1.16-alpha.4",
     "node-fetch": "^3.2.10"
