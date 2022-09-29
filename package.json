@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "studio": "prisma studio",
-    "dev": "node main.mjs"
+    "dev": "node main.mjs",
+    "parser": "node index.js"
   },
   "author": "",
   "license": "ISC",

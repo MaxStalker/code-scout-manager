@@ -1,6 +1,38 @@
 const { CadenceParser } = require("@onflow/cadence-parser");
 const fs = require("fs");
 const path = require("path");
+const pc = require("@prisma/client");
+const { code } = require("./test-code");
+
+const prisma = new pc.PrismaClient();
+
+function isContract(item) {
+  return (
+    item.CompositeKind === `CompositeKindContract` &&
+    item.Type === "CompositeDeclaration"
+  );
+}
+
+function isContractInterface(item) {
+  return (
+    item.Type === "InterfaceDeclaration" &&
+    item.CompositeKind === "CompositeKindContract"
+  );
+}
+
+function findContract(ast) {
+  return ast.program.Declarations.find(isContract);
+}
+
+function findInterface(ast) {
+  return ast.program.Declarations.find(isContractInterface);
+}
+
+function getConformances(contract) {
+  return contract.Conformances.map((item) => {
+    return item.Identifier.Identifier;
+  });
+}
 
 (async () => {
   const parser = await CadenceParser.create(
@@ -20,15 +52,23 @@ const path = require("path");
       log("Hello, world!")
     }
   }
-`
-
+`;
   const code2 = `
     pub contract interface Basic{}
-  `
+  `;
 
-  const ast = parser.parse(code2);
+  const ast = parser.parse(code);
 
-  console.log(ast.program.Declarations);
+  const contract = findContract(ast);
+  const interface = findInterface(ast);
+
+  console.log({ contract });
+  console.log({ interface });
+
+  if (contract) {
+    const tags = getConformances(contract);
+    console.log(tags);
+  }
 
   /*
   const contract = ast.program.Declarations.find((item) => {
