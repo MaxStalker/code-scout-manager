@@ -6,6 +6,16 @@ const { code } = require("./test-code");
 
 const prisma = new pc.PrismaClient();
 
+function readJSON(db) {
+  let rawdata = fs.readFileSync(db);
+  return JSON.parse(rawdata);
+}
+
+function writeJSON(db, data) {
+  let raw = JSON.stringify(data, null, 2);
+  fs.writeFileSync(db, raw);
+}
+
 function isContract(item) {
   return (
     item.CompositeKind === `CompositeKindContract` &&
@@ -58,6 +68,7 @@ function getConformances(contract) {
   `;
 
   const ast = parser.parse(code);
+  writeJSON("./ast.json", ast)
 
   const contract = findContract(ast);
   const interface = findInterface(ast);
