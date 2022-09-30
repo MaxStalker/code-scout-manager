@@ -17,6 +17,18 @@ function getIdentifier(dec) {
   return "something else...";
 }
 
+function getConformances(dec) {
+  if (dec.Conformances) {
+    return dec.Conformances.map((con) => {
+      const id = getIdentifier(con);
+      const nested = con.NestedIdentifiers[0].Identifier;
+      return `${id}.${nested}`;
+    });
+  }
+
+  return [];
+}
+
 function findLeaves(declarations, rule) {
   let result = [];
 
@@ -54,7 +66,7 @@ function processGetViews(declaration) {
   return values;
 }
 
-(function () {
+function doGetViews() {
   const { program } = readJSON("./ast.json");
 
   const getViewsDeclaration = findLeaves(program.Declarations, (dec) => {
@@ -66,4 +78,19 @@ function processGetViews(declaration) {
   console.log({ views });
 
   console.log("done!");
+}
+
+function doGetNFT() {
+  const { program } = readJSON("./ast.json");
+  const leaf = findLeaves(program.Declarations, (dec) => {
+    const id = getIdentifier(dec);
+    return dec.Type === "CompositeDeclaration" && id === "NFT";
+  });
+
+  const conformances = getConformances(leaf[0]);
+  console.log(conformances);
+}
+
+(function () {
+  doGetNFT();
 })();
